@@ -25,17 +25,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/potato-promo-2.jpg",
-            "heading": "Image slide",
+            "heading": "Cook a Five Star Meal",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Learn from the best culinary masters and become the next Top Chef!",
+            "button_label": "Shop Cookbooks",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "background-2",
             "text_alignment_mobile": "center"
           }
         },
