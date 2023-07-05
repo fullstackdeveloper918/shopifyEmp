@@ -250,7 +250,7 @@
       ],
       "settings": {
         "product": "all-in-one-cast-iron-grill",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
