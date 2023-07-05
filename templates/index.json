@@ -155,7 +155,11 @@
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/storm-cloud.jpg"
+            "image": "shopify:\/\/shop_images\/storm-cloud.jpg",
+            "image_heading": "",
+            "image_text": "",
+            "image_btn_text": "",
+            "image_btn_link": ""
           }
         },
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1": {
@@ -275,14 +279,14 @@
         "view_all_style": "link",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "chevronleft",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
