@@ -3553,7 +3553,6 @@ body .product-form__input input[type=radio]:checked+label {
 }
 body .featured-product:not(.product--no-media)>.product__info-wrapper {
     padding: 0;
-    text-align: center;
 }
 .collection .slider-counter {
     display: none;
@@ -3639,7 +3638,13 @@ a.overlay_btn.btn {
 .collage__item .underline-links-hover:hover a {
     text-decoration: none;
 }
-
+.collection__title--desktop-slider .title, .collage-wrapper-title {
+    text-align: center;
+}
+.collage__item .card:not(.ratio)>.card__content {
+    background: #EDEDED;
+    padding: 20px;
+}
 
 
 
