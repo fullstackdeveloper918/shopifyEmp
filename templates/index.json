@@ -170,6 +170,7 @@
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1": {
           "type": "promotion",
           "settings": {
+            "image": "shopify:\/\/shop_images\/storm-cloud.jpg",
             "title": "Inspire Creativity",
             "text": "Add some personality and warmth to your home office!",
             "color": "#4d4d4d",
@@ -184,8 +185,24 @@
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2": {
           "type": "promotion",
           "settings": {
+            "image": "shopify:\/\/shop_images\/cooking-pot-gradient-9_1354e8fa.jpg",
             "title": "Cook up a Storm",
             "text": "Browse our quality pots & pans.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "Shop All",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "295a5e79-d5f2-4779-9452-c4f47792e386": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22282_1_1200px-wide_3.jpg",
+            "title": "Up to 50% off!",
+            "text": "Save big on home decor selections today.",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -199,11 +216,12 @@
       "block_order": [
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-0",
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1",
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2"
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2",
+        "295a5e79-d5f2-4779-9452-c4f47792e386"
       ],
       "settings": {
         "title": "Mosaic",
-        "section_height": "large",
+        "section_height": "small",
         "text_alignment": "top-center",
         "maintain_aspect_ratio": true,
         "compress_blocks": false
