@@ -88,6 +88,19 @@
                   {%- else -%}
                     {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                   {%- endif -%}
+                 {%if block.settings.image_heading != blank or block.settings.image_text != blank %} 
+                 <div class="collage_image_overlay_text">
+                   {%if block.settings.image_heading != blank  %}
+                    <h6 class="overlay_heading"> {{ block.settings.image_heading }}</h6>
+                    {%endif%}  
+                   {%if block.settings.image_heading != blank  %}
+                    <p class="overlay_text"> {{ block.settings.image_text }}</p>
+                    {%endif%} 
+                     {%if block.settings.image_btn_text != blank  %}
+                    <a class="overlay_btn btn" href="{{ block.settings.image_btn_link }}"> {{ block.settings.image_btn_text }}</a>
+                    {%endif%} 
+                  </div>
+                 {%endif%}  
                 </div>
               </div>
             {%- when 'product' -%}
