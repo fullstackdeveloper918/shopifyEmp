@@ -12,11 +12,11 @@
             "menu": "footer"
           }
         },
-        "109be487-6fb6-42d9-9cfa-a09161d698da": {
-          "type": "link_list",
+        "f4c0e737-748b-477c-a014-f4201c9f3f73": {
+          "type": "text",
           "settings": {
             "heading": "CUSTOMER SERVICE",
-            "menu": "footer"
+            "subtext": "<p>    Monday to Friday<br\/>10am - 6.30pm (NewYork time)<\/p>"
           }
         },
         "footer-2": {
@@ -36,7 +36,7 @@
       },
       "block_order": [
         "footer-0",
-        "109be487-6fb6-42d9-9cfa-a09161d698da",
+        "f4c0e737-748b-477c-a014-f4201c9f3f73",
         "footer-2",
         "footer-1"
       ],
