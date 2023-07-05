@@ -181,7 +181,7 @@
         "heading": "Multimedia collage",
         "heading_size": "h2",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "card_styles": "none",
         "color_scheme": "",
         "padding_top": 36,
