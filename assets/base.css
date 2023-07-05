@@ -4064,3 +4064,31 @@ html body .home-section--content .promo-mosaic--inner.promo-mosaic--compressed .
     margin-left: 10px;
   }
 }
+
+
+.slider-mobile-gutter .slideshow__controls {
+    border: none;
+}
+.slideshow__controls .slider-button {
+    position: absolute;
+    top: -25rem;
+    bottom: auto;
+}
+.slider-button .icon {
+    width: 35px;
+    height: 35px;
+    fill: #000;
+    color: #000;
+}
+.slideshow__controls .slider-button.slider-button--prev {
+    left: 40px;
+}
+.slideshow__controls .slider-button.slider-button--next {
+    right: 40px;
+}
+.slider-mobile-gutter .slider-button--prev:not([disabled]):hover .icon {
+    transform: rotate(90deg) scale(1);
+}
+.slider-mobile-gutter .slider-button--next:not([disabled]):hover .icon {
+    transform: rotate(-90deg) scale(1);
+}
