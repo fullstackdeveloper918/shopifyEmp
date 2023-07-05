@@ -160,11 +160,11 @@
             "text": "Welcome the new season with updated cookware from Cuisine to help you thrive in the kitchen.",
             "color": "#4d4d4d",
             "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
+            "button_text": "Shop Brand",
+            "button_style": "secondary",
             "show_overlay": false,
             "background": "",
-            "opacity": 50
+            "opacity": 38
           }
         },
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1": {
