@@ -156,10 +156,10 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/storm-cloud.jpg",
-            "image_heading": "",
-            "image_text": "",
-            "image_btn_text": "",
-            "image_btn_link": ""
+            "image_heading": "Seasonal Clearance Sale",
+            "image_text": "Save up to 40%",
+            "image_btn_text": "Shop all",
+            "image_btn_link": "#"
           }
         },
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1": {
