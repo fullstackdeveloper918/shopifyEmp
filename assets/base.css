@@ -3527,7 +3527,7 @@ body .collection .grid .grid__item {
     padding: 0;
 }
 .collection .underline-links-hover:hover a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 
