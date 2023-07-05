@@ -148,10 +148,71 @@
         "background_color": "#f8f8f8",
         "mobile_layout": "slider"
       }
+    },
+    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-0": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mosaic-stocksy-image-edit-3_f09e.jpg",
+            "title": "Freshen up your Kitchen",
+            "text": "Welcome the new season with updated cookware from Cuisine to help you thrive in the kitchen.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-0",
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1",
+        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2"
+      ],
+      "settings": {
+        "title": "Mosaic",
+        "section_height": "large",
+        "text_alignment": "top-center",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
     }
   },
   "order": [
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c",
-    "4831eab6-508c-4af7-84d7-c37d13475e25"
+    "4831eab6-508c-4af7-84d7-c37d13475e25",
+    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc"
   ]
 }
