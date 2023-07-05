@@ -226,11 +226,111 @@
         "maintain_aspect_ratio": true,
         "compress_blocks": false
       }
+    },
+    "9c594fe4-89b7-4e5a-9ded-0df30327f62e": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-0",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-1",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-2",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-3",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-4",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-5",
+        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3f310ecb-b52a-43a6-9e5a-3442d913284f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c",
     "4831eab6-508c-4af7-84d7-c37d13475e25",
-    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc"
+    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc",
+    "9c594fe4-89b7-4e5a-9ded-0df30327f62e",
+    "3f310ecb-b52a-43a6-9e5a-3442d913284f"
   ]
 }
