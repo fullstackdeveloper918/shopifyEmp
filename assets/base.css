@@ -3365,3 +3365,33 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
+.slideshow h2 {
+    font-weight: 800;
+    font-size: 31px;
+    letter-spacing: 0em;
+}
+
+.banner__text p {
+    font-size: 20px;
+}
+
+.slideshow__text.banner__box {
+    max-width: 70rem;
+}
+
+.slideshow__text.banner__box p {
+    color: #fff;
+}
+
+.banner__buttons .button {
+    color: #fff;
+    background-color: #f04f36;
+    border: 1px solid #f04f36;
+    padding: 0.875rem 1.75rem;
+    letter-spacing: 0em;
+    border-radius: 4px;
+    color: #fff;
+}
+.banner__buttons .button:before, .banner__buttons .button:after {
+    display: none;
+}
