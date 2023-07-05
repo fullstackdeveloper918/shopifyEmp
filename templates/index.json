@@ -310,6 +310,7 @@
     },
     "be890f48-f024-410a-9422-754b7922a5e3": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--19475809829147__be890f48-f024-410a-9422-754b7922a5e3-1688564096cd586e3f-0": {
           "type": "heading",
@@ -338,7 +339,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 24,
         "padding_bottom": 52
       }
     }
