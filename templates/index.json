@@ -173,7 +173,7 @@
             "title": "Inspire Creativity",
             "text": "Add some personality and warmth to your home office!",
             "color": "#4d4d4d",
-            "block_link": "",
+            "block_link": "#",
             "button_text": "Shop All",
             "button_style": "primary",
             "show_overlay": false,
@@ -184,8 +184,8 @@
         "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2": {
           "type": "promotion",
           "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "title": "Cook up a Storm",
+            "text": "Browse our quality pots & pans.",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
