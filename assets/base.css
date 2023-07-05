@@ -3538,7 +3538,7 @@ body .collection  .slider-button .icon {
 .price__regular {
     color: #F04F36;
 }
-.product-form__input input[type=radio]+label {
+body .product-form__input input[type=radio]+label {
     border: 1px solid #DDDDDD;
     border-radius: 3px;
 }
@@ -3546,12 +3546,12 @@ fieldset.product-form__input .form__label {
     font-weight: 800;
     color: #4D4D4D;
 }
-.product-form__input input[type=radio]:checked+label {
+body .product-form__input input[type=radio]:checked+label {
     color: #046E82;
     background-color: #046e820f;
     border-color: #046E82;
 }
-.featured-product:not(.product--no-media)>.product__info-wrapper {
+body .featured-product:not(.product--no-media)>.product__info-wrapper {
     padding: 0;
     text-align: center;
 }
