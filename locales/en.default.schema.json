@@ -3024,6 +3024,85 @@
         }
       }
     },
+	 "mosaic": {
+      "name": "Mosaik",
+      "title": {
+        "label": "Überschrift"
+      },
+      "section_height": {
+        "label": "Abschnittshöhe",
+        "option_1": "Klein",
+        "option_2": "Mittel",
+        "option_3": "Groß"
+      },
+      "text_alignment": {
+        "label": "Textausrichtung",
+        "option_1": "Oben links",
+        "option_2": "Oben Mitte",
+        "option_3": "Oben rechts",
+        "option_4": "Mitte links",
+        "option_5": "Mitte Mitte",
+        "option_6": "Mitte rechts",
+        "option_7": "Unten links",
+        "option_8": "Unten Mitte",
+        "option_9": "Unten rechts"
+      },
+      "maintain_aspect_ratio": {
+        "label": "Seitenverhältnis beibehalten"
+      },
+      "header_1": {
+        "content": "Mobil"
+      },
+      "compress_blocks": {
+        "label": "Blöcke komprimieren"
+      },
+      "blocks": {
+        "promotional_item": {
+          "name": "Werbeartikel",
+          "image": {
+            "label": "Bild"
+          },
+          "title": {
+            "label": "Überschrift"
+          },
+          "text": {
+            "label": "Text"
+          },
+          "color": {
+            "label": "Textfarbe"
+          },
+          "block_link": {
+            "label": "Link"
+          },
+          "button_text": {
+            "label": "Schaltflächentext"
+          },
+          "button_style": {
+            "label": "Schaltflächenstil",
+            "option_1": "Primär",
+            "option_2": "Sekundär"
+          },
+          "header_1": {
+            "content": "Überlagerung"
+          },
+          "show_overlay": {
+            "label": "Überlagerung anzeigen"
+          },
+          "background": {
+            "label": "Farbe"
+          },
+          "opacity": {
+            "label": "Opazität"
+          }
+        }
+      },
+      "presets": {
+        "mosaic": {
+          "name": "Mosaik",
+          "category": "Bild"
+        }
+      }
+    },
     "slideshow": {
       "name": "Slideshow",
       "settings": {
