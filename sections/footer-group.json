@@ -8,7 +8,14 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "YOUR ACCOUNT",
+            "menu": "footer"
+          }
+        },
+        "109be487-6fb6-42d9-9cfa-a09161d698da": {
+          "type": "link_list",
+          "settings": {
+            "heading": "CUSTOMER SERVICE",
             "menu": "footer"
           }
         },
@@ -22,13 +29,14 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "OUR GUARANTEES",
+            "subtext": "<p>Shipping in 3 days<br\/>Free returns within 14 days<br\/>Secure payments<\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
+        "109be487-6fb6-42d9-9cfa-a09161d698da",
         "footer-1",
         "footer-2"
       ],
