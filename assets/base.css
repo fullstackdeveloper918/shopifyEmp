@@ -3426,7 +3426,7 @@ span.highlights-banner__heading {
 .highlights-banner__template--19475809829147__4831eab6-508c-4af7-84d7-c37d13475e25.highlights-banner__container.highlights-banner__mobile-layout--slider.full-width {
     padding: 70px 0;
 }
-.slideshow__controls {
+body .slideshow__controls {
     position: absolute;
     bottom: 35px;
     left: 0;
@@ -3528,4 +3528,84 @@ body .collection  .slider-button .icon {
 }
 .collection .underline-links-hover:hover a {
     text-decoration: none;
+}
+
+
+.product__title {
+    font-size: 28px;
+    font-weight: 800;
+}
+.price__regular {
+    color: #F04F36;
+}
+.product-form__input input[type=radio]+label {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+fieldset.product-form__input .form__label {
+    font-weight: 800;
+    color: #4D4D4D;
+}
+.product-form__input input[type=radio]:checked+label {
+    color: #046E82;
+    background-color: #046e820f;
+    border-color: #046E82;
+}
+.featured-product:not(.product--no-media)>.product__info-wrapper {
+    padding: 0;
+    text-align: center;
+}
+.collection .slider-counter {
+    display: none;
+}
+.collection .slider-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    color: #1D1D1D;
+    border-radius: 24px;
+    box-shadow: 0 0 0 1px #7f7f7f0d, 0 2px 5px #7f7f7f80;
+    transition: transform .15s cubic-bezier(.4,0,.2,1),box-shadow .15s cubic-bezier(.4,0,.2,1),opacity .15s cubic-bezier(.4,0,.2,1);
+    position: absolute;
+    top: 40%;
+}
+body .collection  .slider-button .icon {
+    color: #1D1D1D;
+    opacity: .3;
+    height: 26px;
+    width: 26px;
+}
+.collection .slider-button.slider-button--prev {
+    left: 0;
+}
+.collection .slider-button.slider-button--next {
+    right: 0;
+}
+.collection {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.collection slider-component:not(.page-width-desktop) {
+    padding: 0 60px;
+}
+.collection .grid {
+    column-gap: 20px;
+}
+.collection .grid .grid__item {
+    border: 1px solid rgba(128,128,128,.16);
+    box-shadow: 0 1px 4px #8080801c;
+    padding: 0;
+}
+.collection .underline-links-hover:hover a {
+    text-decoration: none;
+}
+.collage__item .underline-links-hover:hover a {
+    text-decoration: none;
+}
+.announcement-bar__message span {
+    color: #fff;
 }
