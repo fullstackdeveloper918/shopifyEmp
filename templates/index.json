@@ -149,82 +149,43 @@
         "mobile_layout": "slider"
       }
     },
-    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc": {
-      "type": "dynamic-promo-mosaic",
+    "1aa84eaa-3902-4664-8cf0-a328733b989d": {
+      "type": "collage",
       "blocks": {
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-0": {
-          "type": "promotion",
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mosaic-stocksy-image-edit-3_f09e.jpg",
-            "title": "Freshen up your Kitchen",
-            "text": "Welcome the new season with updated cookware from Cuisine to help you thrive in the kitchen.",
-            "color": "#4d4d4d",
-            "block_link": "#",
-            "button_text": "Shop Brand",
-            "button_style": "secondary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 38
+            "image": "shopify:\/\/shop_images\/storm-cloud.jpg"
           }
         },
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1": {
-          "type": "promotion",
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/storm-cloud.jpg",
-            "title": "Inspire Creativity",
-            "text": "Add some personality and warmth to your home office!",
-            "color": "#4d4d4d",
-            "block_link": "#",
-            "button_text": "Shop All",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "product": "",
+            "second_image": false
           }
         },
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2": {
-          "type": "promotion",
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-2": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cooking-pot-gradient-9_1354e8fa.jpg",
-            "title": "Cook up a Storm",
-            "text": "Browse our quality pots & pans.",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "Shop All",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "295a5e79-d5f2-4779-9452-c4f47792e386": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/22282_1_1200px-wide_3.jpg",
-            "title": "Up to 50% off!",
-            "text": "Save big on home decor selections today.",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "collection": "featured-collection"
           }
         }
       },
       "block_order": [
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-0",
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-1",
-        "template--19475809829147__48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc-16885464066e5959ed-2",
-        "295a5e79-d5f2-4779-9452-c4f47792e386"
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0",
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1",
+        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-2"
       ],
       "settings": {
-        "title": "Mosaic",
-        "section_height": "small",
-        "text_alignment": "top-center",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": false
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "9c594fe4-89b7-4e5a-9ded-0df30327f62e": {
@@ -341,14 +302,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4a0dff6d-0006-4975-a6db-1b7bbd55291d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "12f9214b-c0e8-44de-a327-91dba55f1990": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "eeb0a85a-cf27-4bbe-9526-f6d7fcd82019": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-0",
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-1",
+        "template--19475809829147__4a0dff6d-0006-4975-a6db-1b7bbd55291d-168855557637eba664-2",
+        "12f9214b-c0e8-44de-a327-91dba55f1990",
+        "eeb0a85a-cf27-4bbe-9526-f6d7fcd82019"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c",
     "4831eab6-508c-4af7-84d7-c37d13475e25",
-    "48f01f7f-1dc1-4d6f-af17-d1ee6611f8cc",
+    "1aa84eaa-3902-4664-8cf0-a328733b989d",
     "9c594fe4-89b7-4e5a-9ded-0df30327f62e",
     "3f310ecb-b52a-43a6-9e5a-3442d913284f",
-    "476054f9-dd5b-4b6c-86b9-87b4dbd07c49"
+    "476054f9-dd5b-4b6c-86b9-87b4dbd07c49",
+    "4a0dff6d-0006-4975-a6db-1b7bbd55291d"
   ]
 }
