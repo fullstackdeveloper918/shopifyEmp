@@ -3589,7 +3589,7 @@ body .collection  .slider-button .icon {
     margin: 0 auto;
     padding: 0 15px;
 }
-.collection slider-component:not(.page-width-desktop) {
+body .collection slider-component:not(.page-width-desktop) {
     padding: 0 60px;
 }
 .collection .grid {
@@ -3639,7 +3639,6 @@ a.overlay_btn.btn {
 .collage__item .underline-links-hover:hover a {
     text-decoration: none;
 }
-
 
 
 
