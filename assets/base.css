@@ -3453,8 +3453,6 @@ span.highlights-banner__heading {
     height: 8px;
 }
 
-
-
 .slider-mobile-gutter .slideshow__controls {
     border: none;
 }
@@ -3463,7 +3461,7 @@ span.highlights-banner__heading {
     top: -25rem;
     bottom: auto;
 }
-.slider-button .icon {
+body .slider-button .icon {
     width: 35px;
     height: 35px;
     fill: #000;
