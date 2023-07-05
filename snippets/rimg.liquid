@@ -188,12 +188,7 @@
     Setting the image's initial `srcset` attribute to this inline SVG allows the
     image to have the correct aspect ratio before we actually load the image.
   {% endcomment %}
-  {% assign rimg_placeholder = 'data:image/svg+xml;utf8,'
-    | append: "<svg xmlns='http://www.w3.org/2000/svg' width='X' height='Y'></svg>"
-    | replace: 'X', rimg_w
-    | replace: 'Y', rimg_h
-    | replace: ' ', '%20'
-  %}
+
 
   {% comment %}
     Generate a `srcset` string.
