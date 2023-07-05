@@ -3608,4 +3608,46 @@ body .collection  .slider-button .icon {
 }
 .announcement-bar__message span {
     color: #fff;
+} 
+
+.media>*:not(.zoom):not(.deferred-media__poster-button).collage_image_overlay_text {
+    padding: 28px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    bottom: auto;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+.collage_image_overlay_text .overlay_heading {
+    margin: 0 0 0px;
+    color: #fff;
+    font-size: 16px;
+}
+.collage_image_overlay_text .overlay_text {
+    margin: 0;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+}
+a.overlay_btn.btn {
+    color: #fff;
+    text-decoration: none;
+}
+.collage__item .underline-links-hover:hover a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
