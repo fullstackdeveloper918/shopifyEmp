@@ -19,26 +19,26 @@
             "menu": "footer"
           }
         },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
             "heading": "OUR GUARANTEES",
             "subtext": "<p>Shipping in 3 days<br\/>Free returns within 14 days<br\/>Secure payments<\/p>"
           }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "OUR COMPANY",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "footer-0",
         "109be487-6fb6-42d9-9cfa-a09161d698da",
-        "footer-1",
-        "footer-2"
+        "footer-2",
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "background-1",
