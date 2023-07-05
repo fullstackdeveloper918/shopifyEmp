@@ -3439,14 +3439,14 @@ span.highlights-banner__heading {
     padding: 0;
     margin: 0 7.5px;
 }
-.slideshow__controls .slider-counter__link span {
+body .slideshow__controls .slider-counter__link span {
     background: #1d1d1d;
     border: none;
     opacity: .25;
     width: 7px;
     height: 7px;
 }
-.slideshow__controls .slider-counter__link--active .dot {
+body .slideshow__controls .slider-counter__link--active .dot {
     opacity: 1;
     background-color: #1d1d1d;
     width: 8px;
@@ -3464,8 +3464,8 @@ span.highlights-banner__heading {
 body .slider-button .icon {
     width: 35px;
     height: 35px;
-    fill: #000;
-    color: #000;
+    fill: #fff;
+    color: #fff;
 }
 .slideshow__controls .slider-button.slider-button--prev {
     left: 40px;
