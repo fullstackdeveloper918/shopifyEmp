@@ -159,7 +159,7 @@
             "title": "Freshen up your Kitchen",
             "text": "Welcome the new season with updated cookware from Cuisine to help you thrive in the kitchen.",
             "color": "#4d4d4d",
-            "block_link": "",
+            "block_link": "#",
             "button_text": "Shop Brand",
             "button_style": "secondary",
             "show_overlay": false,
