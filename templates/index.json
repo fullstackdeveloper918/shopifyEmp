@@ -165,7 +165,7 @@
             "second_image": false
           }
         },
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-2": {
+        "cc33f774-3e2e-4a16-85fd-3a5810762d2c": {
           "type": "collection",
           "settings": {
             "collection": "featured-collection"
@@ -175,7 +175,7 @@
       "block_order": [
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0",
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1",
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-2"
+        "cc33f774-3e2e-4a16-85fd-3a5810762d2c"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -223,8 +223,8 @@
         "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-5": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6": {
@@ -244,7 +244,7 @@
         "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6"
       ],
       "settings": {
-        "product": "",
+        "product": "all-in-one-cast-iron-grill",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
