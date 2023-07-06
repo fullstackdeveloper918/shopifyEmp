@@ -3645,6 +3645,42 @@ a.overlay_btn.btn {
     background: #f5f3ed;
     padding: 20px;
 }
+.newsletter__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-block {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: #e3f9f4;
+    border-radius: 5px;
+    padding: 40px;
+    width: 66%;
+}
+
+.newsletter-heading {
+    text-align: left;
+    width: 34%;
+}
+
+.form-block p {
+    padding-right: 20px;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+    line-height: initial;
+}
+
+.newsletter-heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
 
 
 
