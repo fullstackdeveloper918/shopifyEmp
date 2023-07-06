@@ -3628,9 +3628,19 @@ body .collection slider-component:not(.page-width-desktop) {
     color: #fff;
     font-weight: 800;
 }
-a.overlay_btn.btn {
+.overlay_btn.btn {
     color: #fff;
     text-decoration: none;
+    border: 1px solid #fff;
+    padding: 7px 40px;
+    display: inline-flex;
+    margin-top: 15px;
+    transition: all .3s;
+}
+.overlay_btn.btn:hover {
+    background: #f5f3ed;
+    color: #000;
+    border-color: #f5f3ed;
 }
 .collage__item .underline-links-hover:hover a {
     text-decoration: none;
