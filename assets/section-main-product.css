@@ -165,9 +165,10 @@
 .product-form__input {
   flex: 0 0 100%;
   padding: 0;
-/*   margin: 0 0 1.2rem 0;
-  margin: 0 auto; */
-  max-width: 44rem;
+/*   margin: 0 0 1.2rem 0; */
+/*   max-width: 44rem; */
+  margin: 0 auto;
+  max-width: 100%;
   min-width: fit-content;
   border: none;
 }
