@@ -1280,7 +1280,7 @@ a.product__text {
 }
 
 .product__view-details:hover {
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 0.3rem;
 }
 
