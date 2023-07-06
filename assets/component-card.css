@@ -279,7 +279,7 @@
   }
 
   .underline-links-hover:hover a {
-    text-decoration: underline;
+    text-decoration:none;
     text-underline-offset: 0.3rem;
   }
 }
