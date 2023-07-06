@@ -3707,7 +3707,15 @@ body .collection slider-component:not(.page-width-desktop) {
     width: 100%;
     text-align: center;
 }
+@media(max-width:767px){
+  .newsletter-heading, .form-block {
+    width: 100%;
+}
 
+.newsletter-heading h2 {
+    text-align: center;
+}
+}
 
 
 
