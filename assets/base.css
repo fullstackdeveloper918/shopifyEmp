@@ -3707,6 +3707,21 @@ body .collection slider-component:not(.page-width-desktop) {
     width: 100%;
     text-align: center;
 }
+.header__icons {
+    gap: 25px;
+}
+.header__icons .header__icon {
+    text-decoration: none;
+    gap: 10px;
+    width: inherit;
+    height: auto;
+}
+.announcement-bar__link .icon-arrow {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
 @media(max-width:767px){
   .newsletter-heading, .form-block {
     width: 100%;
