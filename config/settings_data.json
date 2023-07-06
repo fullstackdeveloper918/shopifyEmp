@@ -1,7 +1,7 @@
 {
   "current": {
     "logo_width": 90,
-    "type_header_font": "montserrat_n4",
+    "type_header_font": "montserrat_n7",
     "heading_scale": 100,
     "type_body_font": "nunito_sans_n4",
     "body_scale": 100,
@@ -10,9 +10,9 @@
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": false,
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 4,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
