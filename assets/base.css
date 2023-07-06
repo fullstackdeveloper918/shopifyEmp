@@ -3544,9 +3544,9 @@ fieldset.product-form__input .form__label {
     color: #4D4D4D;
 }
 body .product-form__input input[type=radio]:checked+label {
-    color: #046E82;
-    background-color: #046e820f;
-    border-color: #046E82;
+    color: #040404;
+    background-color: #f5f3ed;
+    border-color: #d1cbbb;
 }
 body .featured-product:not(.product--no-media)>.product__info-wrapper {
     padding: 0;
