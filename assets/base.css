@@ -3656,6 +3656,7 @@ body .collection slider-component:not(.page-width-desktop) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .form-block {
