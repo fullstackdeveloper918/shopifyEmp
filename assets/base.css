@@ -3728,8 +3728,17 @@ body .collection slider-component:not(.page-width-desktop) {
 body .collection slider-component:not(.page-width-desktop) {
     padding: 0 28px;
 }
+  
 }
-
+@media(max-width:575px){
+  .highlights-banner__block:last-child {
+    margin-bottom: 0;
+}
+.highlights-banner__block {
+    width: 100%;
+    margin-bottom: 50px;
+}
+}
 
 
 
