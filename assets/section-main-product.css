@@ -230,7 +230,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio'] + label:hover {
-  border-color: rgb(var(--color-foreground));
+ border-color: #d1cbbb;
 }
 
 .product-form__input input[type='radio']:checked + label {
