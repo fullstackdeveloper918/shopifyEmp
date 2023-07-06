@@ -3725,6 +3725,9 @@ body .collection slider-component:not(.page-width-desktop) {
 .product__info-wrapper .quantity {
     margin: 0 auto;
 }
+.product .price .badge {
+    background: #dd1d1d;
+}
 @media(max-width:767px){
   .newsletter-heading, .form-block {
     width: 100%;
