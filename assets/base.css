@@ -3642,7 +3642,7 @@ a.overlay_btn.btn {
     text-align: center;
 }
 .collage__item .card:not(.ratio)>.card__content {
-    background: #EDEDED;
+    background: #f5f3ed;
     padding: 20px;
 }
 
