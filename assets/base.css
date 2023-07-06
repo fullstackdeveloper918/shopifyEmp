@@ -3738,6 +3738,15 @@ body .collection slider-component:not(.page-width-desktop) {
     width: 100%;
     margin-bottom: 50px;
 }
+  .form-block {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.form-block p {
+    width: 100%;
+    padding: 0 0 10px;
+}
 }
 
 
