@@ -3402,10 +3402,7 @@ details-disclosure > details {
 .highlights-banner__content {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 1140px;
     justify-content: space-between;
-    margin: 0 auto;
 }
 .highlights-banner__icon svg {
     color: #046e82;
