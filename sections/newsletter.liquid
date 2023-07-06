@@ -47,9 +47,9 @@
             {{ block.settings.text }}
           </div>
         {%- when 'email_form' -%}
-          <div {{ block.shopify_attributes }}>
+          <div class="form-block" {{ block.shopify_attributes }}>
             {% if block.settings.form-text %}
-               <p>{{ block.settings.form-text}}</p>
+               {{ block.settings.form-text}}
             {% endif %}
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
