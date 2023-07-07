@@ -3731,6 +3731,10 @@ body .collection slider-component:not(.page-width-desktop) {
 .product__view-details {
     font-size: 18px;
 }
+.newsletter-form__field-wrapper .field__input:focus {
+    outline: none;
+    box-shadow: none;
+}
 @media(max-width:767px){
   .newsletter-heading, .form-block {
     width: 100%;
