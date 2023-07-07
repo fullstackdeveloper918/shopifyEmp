@@ -3736,6 +3736,13 @@ body .collection slider-component:not(.page-width-desktop) {
     box-shadow: none;
 }
 @media(max-width:767px){
+  .slideshow__controls .slider-button {
+    display: none;
+}
+
+body .slideshow__controls {
+    bottom: 0;
+}
   .newsletter-heading, .form-block {
     width: 100%;
 }
