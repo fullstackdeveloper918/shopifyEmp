@@ -3382,10 +3382,6 @@ details-disclosure > details {
     max-width: 70rem;
 }
 
-.slideshow__text.banner__box p {
-    color: #fff;
-}
-
 .banner__buttons .button {
     color: #fff;
     background-color: #f04f36;
