@@ -3841,6 +3841,12 @@ body .collection slider-component:not(.page-width-desktop) {
     gap: 20px;
 }
 
-
+.Mega_menu_wtih_images .mega-menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Mega_menu_wtih_images .mega-menu__list li a:hover {
+    text-decoration: none;
+}
 
 
