@@ -3811,6 +3811,36 @@ body .collection slider-component:not(.page-width-desktop) {
     text-decoration: none;
 }
 
+.list-menu__item {
+    font-weight: 800;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.header__menu-item:hover span, details[open]>.header__menu-item {
+    text-decoration: none;
+}
+.mega-menu__list--condensed .mega-menu__link {
+    font-size: 16px;
+}
+.mega-menu .mega-menu__content {
+    left: auto;
+    right: auto;
+    min-width: 190px;
+}
+.mega-menu .mega-menu__content  .mega-menu__list--condensed {
+    padding: 0 20px;
+}
+.mega-menu__link:hover, .mega-menu__link--active {
+    text-decoration: none;
+}
+.mega-menu__content .mega-menu__link {
+    color: #000;
+}
+.list-menu--inline {
+    gap: 20px;
+}
+
 
 
 
