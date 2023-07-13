@@ -66,7 +66,8 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}    
-                  {%if link.title == 'Catalog' %}
+                  {%assign mega_menu_item = settings.menu_type_item_name  %} 
+                  {%if link.title == mega_menu_item %}
                     <div class="mega_menu_images">
                     <a href="#">
                     <img src="https://theme1022-nutrivix-vitamin-store.myshopify.com/cdn/shop/files/img_09_280x380_crop_center.png">
