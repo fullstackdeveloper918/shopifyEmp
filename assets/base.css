@@ -3858,7 +3858,6 @@ body .collection slider-component:not(.page-width-desktop) {
 }
 .product_list_view .collection .card {
     justify-content: space-between !important;
-    align-items: center !important;
     gap: 2rem;
     flex-direction: initial !important;
 }
