@@ -3762,7 +3762,9 @@ body .slideshow__controls {
 body .collection slider-component:not(.page-width-desktop) {
     padding: 0 28px;
 }
-  
+  .collection .grid {
+    column-gap: 4px;
+}
 }
 @media(max-width:575px){
   .highlights-banner__block:last-child {
