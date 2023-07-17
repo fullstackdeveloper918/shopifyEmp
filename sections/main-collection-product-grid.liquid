@@ -28,31 +28,25 @@
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding">
-<div class="utils-viewtoggle">
+
+  {%- paginate collection.products by section.settings.products_per_page -%}
+    {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
+    {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
+      <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
+        <div class="utils-viewtoggle">
                     <span class="utils-viewtoggle-label">
                       View as
                     </span>
 
                     <button class="utils-viewtoggle-button active" data-collection-view="grid-view" aria-label="grid view">
-                      
-
-
-                                                                                    <svg class="icon-grid " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 7V2H7V7H2ZM0 1C0 0.447715 0.447715 0 1 0H8C8.55229 0 9 0.447715 9 1V8C9 8.55229 8.55229 9 8 9H1C0.447715 9 0 8.55229 0 8V1ZM13 7V2H18V7H13ZM11 1C11 0.447715 11.4477 0 12 0H19C19.5523 0 20 0.447715 20 1V8C20 8.55229 19.5523 9 19 9H12C11.4477 9 11 8.55229 11 8V1ZM13 13V18H18V13H13ZM12 11C11.4477 11 11 11.4477 11 12V19C11 19.5523 11.4477 20 12 20H19C19.5523 20 20 19.5523 20 19V12C20 11.4477 19.5523 11 19 11H12ZM2 18V13H7V18H2ZM0 12C0 11.4477 0.447715 11 1 11H8C8.55229 11 9 11.4477 9 12V19C9 19.5523 8.55229 20 8 20H1C0.447715 20 0 19.5523 0 19V12Z" fill="currentColor"></path>    </svg>                                
-
+           <svg class="icon-grid " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 7V2H7V7H2ZM0 1C0 0.447715 0.447715 0 1 0H8C8.55229 0 9 0.447715 9 1V8C9 8.55229 8.55229 9 8 9H1C0.447715 9 0 8.55229 0 8V1ZM13 7V2H18V7H13ZM11 1C11 0.447715 11.4477 0 12 0H19C19.5523 0 20 0.447715 20 1V8C20 8.55229 19.5523 9 19 9H12C11.4477 9 11 8.55229 11 8V1ZM13 13V18H18V13H13ZM12 11C11.4477 11 11 11.4477 11 12V19C11 19.5523 11.4477 20 12 20H19C19.5523 20 20 19.5523 20 19V12C20 11.4477 19.5523 11 19 11H12ZM2 18V13H7V18H2ZM0 12C0 11.4477 0.447715 11 1 11H8C8.55229 11 9 11.4477 9 12V19C9 19.5523 8.55229 20 8 20H1C0.447715 20 0 19.5523 0 19V12Z" fill="currentColor"></path></svg>                                
                     </button>
 
                     <button class="utils-viewtoggle-button" data-collection-view="list-view" aria-label="list view">
+                    <svg class="icon-list " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.223858 2 0 2.22386 0 2.5V3.5C0 3.77614 0.223858 4 0.5 4H1.5C1.77614 4 2 3.77614 2 3.5V2.5C2 2.22386 1.77614 2 1.5 2H0.5ZM5 2C4.44772 2 4 2.44772 4 3C4 3.55228 4.44772 4 5 4H19C19.5523 4 20 3.55228 20 3C20 2.44772 19.5523 2 19 2H5ZM5 9C4.44772 9 4 9.44772 4 10C4 10.5523 4.44772 11 5 11H19C19.5523 11 20 10.5523 20 10C20 9.44772 19.5523 9 19 9H5ZM4 17C4 16.4477 4.44772 16 5 16H19C19.5523 16 20 16.4477 20 17C20 17.5523 19.5523 18 19 18H5C4.44772 18 4 17.5523 4 17ZM0 9.5C0 9.22386 0.223858 9 0.5 9H1.5C1.77614 9 2 9.22386 2 9.5V10.5C2 10.7761 1.77614 11 1.5 11H0.5C0.223858 11 0 10.7761 0 10.5V9.5ZM0.5 16C0.223858 16 0 16.2239 0 16.5V17.5C0 17.7761 0.223858 18 0.5 18H1.5C1.77614 18 2 17.7761 2 17.5V16.5C2 16.2239 1.77614 16 1.5 16H0.5Z" fill="currentColor"></path>    </svg> 
                       
-
-
-                                                                                      <svg class="icon-list " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.223858 2 0 2.22386 0 2.5V3.5C0 3.77614 0.223858 4 0.5 4H1.5C1.77614 4 2 3.77614 2 3.5V2.5C2 2.22386 1.77614 2 1.5 2H0.5ZM5 2C4.44772 2 4 2.44772 4 3C4 3.55228 4.44772 4 5 4H19C19.5523 4 20 3.55228 20 3C20 2.44772 19.5523 2 19 2H5ZM5 9C4.44772 9 4 9.44772 4 10C4 10.5523 4.44772 11 5 11H19C19.5523 11 20 10.5523 20 10C20 9.44772 19.5523 9 19 9H5ZM4 17C4 16.4477 4.44772 16 5 16H19C19.5523 16 20 16.4477 20 17C20 17.5523 19.5523 18 19 18H5C4.44772 18 4 17.5523 4 17ZM0 9.5C0 9.22386 0.223858 9 0.5 9H1.5C1.77614 9 2 9.22386 2 9.5V10.5C2 10.7761 1.77614 11 1.5 11H0.5C0.223858 11 0 10.7761 0 10.5V9.5ZM0.5 16C0.223858 16 0 16.2239 0 16.5V17.5C0 17.7761 0.223858 18 0.5 18H1.5C1.77614 18 2 17.7761 2 17.5V16.5C2 16.2239 1.77614 16 1.5 16H0.5Z" fill="currentColor"></path>    </svg>                              
-
                     </button>
-                  </div>
-  {%- paginate collection.products by section.settings.products_per_page -%}
-    {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
-    {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
-      <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
+         </div>
         <form class="facets-vertical-form" id="FacetSortForm">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
