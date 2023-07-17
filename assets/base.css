@@ -3742,6 +3742,7 @@ body .facets-vertical-sort {
     left: 0;
     right: 0;
     transform: translateY(70px);
+    transition: all .4s;
     max-width: 90%;
 }
 .hover_quick_to_add .card__content {
