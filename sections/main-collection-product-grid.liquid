@@ -415,11 +415,13 @@
 
     $("#ProductGridContainer").addClass('product_list_view');   
      $("#ProductGridContainer").removeClass('hover_quick_to_add'); 
+     $(".pro_card_description").show();
   });
 
  $("button#coll_grid-view").on('click',function(){
     $("#ProductGridContainer").removeClass('product_list_view');
      $("#ProductGridContainer").addClass('hover_quick_to_add'); 
+     $(".pro_card_description").hide();
   });
 
 
