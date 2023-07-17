@@ -3585,17 +3585,7 @@ body .collection slider-component:not(.page-width-desktop) {
     padding: 0 60px;
 }
 
-.collection .grid .grid__item {
-    border: 1px solid rgba(128,128,128,.16);
-    box-shadow: 0 1px 4px #8080801c;
-    padding: 0;
-}
-.collection .underline-links-hover:hover a {
-    text-decoration: none;
-}
-.collage__item .underline-links-hover:hover a {
-    text-decoration: none;
-}
+
 .announcement-bar__message span {
     color: #fff;
 } 
@@ -3732,6 +3722,11 @@ body .collection slider-component:not(.page-width-desktop) {
 .newsletter-form__field-wrapper .field__input:focus {
     outline: none;
     box-shadow: none;
+}
+.facets-vertical-sort {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
