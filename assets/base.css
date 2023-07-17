@@ -3867,8 +3867,7 @@ body .collection slider-component:not(.page-width-desktop) {
 }
 .product_list_view .collection .card__content {
     width: 70% ;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 .product_list_view .collection .card__content .quick-add {
     width: inherit;
