@@ -3848,7 +3848,15 @@ body .collection slider-component:not(.page-width-desktop) {
 .Mega_menu_wtih_images .mega-menu__list li a:hover {
     text-decoration: none;
 }
+.facets__heading--vertical {
+    font-weight: 700;
+    font-size: 20px;
+}
 
+.facets-vertical .facets__summary {
+    color: #000;
+    font-weight: 600;
+}
 
 
 .collection .grid__item {
