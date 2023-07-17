@@ -3945,6 +3945,5 @@ span.utils-viewtoggle-label {
     width: 50%;
 }
 .product_list_view .collection .card-information {
-    width: 50%;
-	text-align: right;
+	text-align: left;
 }
