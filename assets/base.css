@@ -3518,6 +3518,7 @@ body .collection .grid .grid__item {
     border: 1px solid rgba(128,128,128,.16);
     box-shadow: 0 1px 4px #8080801c;
     padding: 0;
+  overflow: hidden;
 }
 .collection .underline-links-hover:hover a {
     text-decoration: none; 
