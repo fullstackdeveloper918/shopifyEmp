@@ -3859,7 +3859,7 @@ body .collection slider-component:not(.page-width-desktop) {
 }
 
 
-.collection .grid__item {
+/* .collection .grid__item {
   width: 100% !important;
   max-width: 100% !important;
 }
@@ -3886,4 +3886,4 @@ body .collection slider-component:not(.page-width-desktop) {
 .collection .card-information {
     width: 50%;
 	text-align: right;
-}
+} */
