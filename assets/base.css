@@ -3512,7 +3512,7 @@ body .collection  .slider-button .icon {
     padding: 0 60px;
 }
 .collection .grid {
-    column-gap: 20px;
+    column-gap: 8px;
 }
 body .collection .grid .grid__item {
     border: 1px solid rgba(128,128,128,.16);
