@@ -3762,8 +3762,17 @@ body .slideshow__controls {
 body .collection slider-component:not(.page-width-desktop) {
     padding: 0 28px;
 }
-  .collection .grid {
+.product-grid-container .collection .grid {
     column-gap: 4px;
+}
+
+.product-grid-container .card--card .quick-add {
+    margin: 0;
+}
+
+.product-grid-container .quick-add__submit {
+    font-size: 14px;
+    min-height: 40px;
 }
 }
 @media(max-width:575px){
