@@ -3867,6 +3867,9 @@ span.utils-viewtoggle-label {
 .utils-viewtoggle .utils-viewtoggle-button:hover {
     color: #dd1d1d;
 }
+.product-grid-container .collection {
+    padding: 0;
+}
 .product_list_view .collection .grid__item {
   width: 100%;
   max-width: 100% ;
