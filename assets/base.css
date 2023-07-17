@@ -3519,6 +3519,7 @@ body .collection .grid .grid__item {
     box-shadow: 0 1px 4px #8080801c;
     padding: 0;
   overflow: hidden;
+  height: fit-content;
 }
 .collection .underline-links-hover:hover a {
     text-decoration: none; 
@@ -3757,6 +3758,9 @@ body .facets-vertical-sort {
 }
 .hover_quick_to_add .card-wrapper:hover .card__content{
       padding-bottom: 50px;
+}
+.hover_quick_to_add .card-wrapper, .hover_quick_to_add .card:not(.ratio) {
+    height: auto;
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
