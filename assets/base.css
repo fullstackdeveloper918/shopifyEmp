@@ -3727,6 +3727,7 @@ body .facets-vertical-sort {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  padding-bottom: 20px;
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
