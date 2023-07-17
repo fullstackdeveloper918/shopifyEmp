@@ -3870,6 +3870,11 @@ body .collection slider-component:not(.page-width-desktop) {
     display: flex;
     flex-wrap: wrap;
 }
+.product_list_view .collection .card__content .quick-add {
+    width: inherit;
+    max-width: 200px;
+    margin: 0;
+}
 .product_list_view .collection .card__information {
     display: flex;
     justify-content: space-between;
