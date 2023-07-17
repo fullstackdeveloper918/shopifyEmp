@@ -3730,9 +3730,9 @@ body .facets-vertical-sort {
   padding-bottom: 20px;
 }
 .product-grid-container .quick-add__submit {
-    background: #000;
+    background:#404040;
     color: #fff;
-    border-color: #000;
+    border-color:#404040;
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
