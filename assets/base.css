@@ -3851,31 +3851,3 @@ body .collection slider-component:not(.page-width-desktop) {
 
 
 
-.collection .grid__item {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-.collection .card {
-    justify-content: space-between !important;
-    align-items: center !important;
-    gap: 2rem;
-    flex-direction: initial !important;
-}
-.collection .card__inner {
-    width: 15%;
-}
-.collection .card__content {
-    width: 85% !important;
-}
-.collection .card__information {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.collection .card__heading {
-    width: 50%;
-}
-.collection .card-information {
-    width: 50%;
-	text-align: right;
-}
