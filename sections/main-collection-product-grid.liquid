@@ -413,10 +413,15 @@
 
   $("button#coll_list-view").on('click',function(){
 
-    $("#ProductGridContainer").addClass('product_list_view');     
+    $("#ProductGridContainer").addClass('product_list_view');   
+     $("#ProductGridContainer").removeClass('hover_quick_to_add'); 
   });
-  $("button#coll_grid-view").on('click',function(){
 
-    $("#ProductGridContainer").removeClass('product_list_view');     
+ $("button#coll_grid-view").on('click',function(){
+    $("#ProductGridContainer").removeClass('product_list_view');
+     $("#ProductGridContainer").addClass('hover_quick_to_add'); 
   });
+
+
+  
 </script>  
