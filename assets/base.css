@@ -3850,7 +3850,20 @@ body .collection slider-component:not(.page-width-desktop) {
     color: #000;
     font-weight: 600;
 }
+.utils-viewtoggle .utils-viewtoggle-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
 
+.utils-viewtoggle {
+    display: flex;
+    align-items: center;
+}
+
+span.utils-viewtoggle-label {
+    margin-right: 10px;
+}
 
 .product_list_view .collection .grid__item {
   width: 100%;
