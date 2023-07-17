@@ -3584,9 +3584,7 @@ body .collection  .slider-button .icon {
 body .collection slider-component:not(.page-width-desktop) {
     padding: 0 60px;
 }
-.collection .grid {
-    column-gap: 20px;
-}
+
 .collection .grid .grid__item {
     border: 1px solid rgba(128,128,128,.16);
     box-shadow: 0 1px 4px #8080801c;
