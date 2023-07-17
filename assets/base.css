@@ -3947,3 +3947,7 @@ span.utils-viewtoggle-label {
 .product_list_view .collection .card-information {
 	text-align: left;
 }
+.product_list_view .product_item_link {
+    text-decoration: none;
+    color: #dd1d1d;
+}
