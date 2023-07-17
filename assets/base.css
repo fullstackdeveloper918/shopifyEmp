@@ -3746,13 +3746,16 @@ body .facets-vertical-sort {
 }
 .hover_quick_to_add .card__content {
     position: relative;
-    padding-bottom: 50px;
+
 }
 .hover_quick_to_add .card-wrapper:hover .quick-add {
     transform: none;
 }
 .hover_quick_to_add .card-wrapper:hover .card__content {
     padding-bottom: 20px;
+}
+.hover_quick_to_add .card-wrapper:hover .card__content{
+      padding-bottom: 50px;
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
