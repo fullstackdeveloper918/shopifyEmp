@@ -3863,7 +3863,7 @@ body .collection slider-component:not(.page-width-desktop) {
     flex-direction: initial !important;
 }
 .product_list_view .collection .card__inner {
-    width: 15%;
+    width: 30%;
 }
 .product_list_view .collection .card__content {
     width: 85% !important;
