@@ -3853,13 +3853,13 @@ body .collection slider-component:not(.page-width-desktop) {
 
 
 .product_list_view .collection .grid__item {
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 100%;
+  max-width: 100% ;
 }
 .product_list_view .collection .card {
-    justify-content: space-between !important;
+    justify-content: space-between;
     gap: 2rem;
-    flex-direction: initial !important;
+    flex-direction: initial;
 }
 .product_list_view .collection .card__inner {
     width: 30%;
