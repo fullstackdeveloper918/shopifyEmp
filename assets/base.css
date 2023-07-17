@@ -3734,6 +3734,26 @@ body .facets-vertical-sort {
     color: #fff;
     border-color:#404040;
 }
+.hover_quick_to_add .quick-add {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    transform: translateY(70px);
+    transition: all .4s;
+    max-width: 90%;
+}
+.hover_quick_to_add .card__content {
+    position: relative;
+    padding-bottom: 50px;
+}
+.hover_quick_to_add .card-wrapper:hover .quick-add {
+    transform: none;
+}
+.hover_quick_to_add .card-wrapper:hover .card__content {
+    padding-bottom: 20px;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
