@@ -3723,7 +3723,7 @@ body .collection slider-component:not(.page-width-desktop) {
     outline: none;
     box-shadow: none;
 }
-.facets-vertical-sort {
+body .facets-vertical-sort {
     display: flex;
     align-items: center;
     justify-content: flex-end;
