@@ -3809,6 +3809,9 @@ body .facets-vertical-sort {
 .icon-product-section {
     padding-bottom: 90px;
 }
+.icon-product-section .highlights-banner__block-link {
+    text-decoration: none;
+}
 @media(max-width:1199px){
   .icon-product-section .highlights-banner__block {
     margin-bottom: 30px;
