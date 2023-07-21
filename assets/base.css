@@ -3752,6 +3752,14 @@ body .facets-vertical-sort {
 .main-product-page .product__info-wrapper .quantity {
     margin-left: 0;
 }
+.related-products .card.card--card.gradient:hover {
+    box-shadow: 0 1px 4px #8080801c;
+}
+
+.related-products .card.card--card.gradient {
+    background: transparent;
+    border: 1px solid #ddd;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
