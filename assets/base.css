@@ -3803,6 +3803,9 @@ body .collection slider-component:not(.page-width-desktop) {
 .product.main-product-page.grid {
     padding: 0;
 }
+.main-product-page .product__info-wrapper .product__info-container h1 {
+    font-size: 25px;
+}
 }
 @media(max-width:575px){
   .highlights-banner__block:last-child {
