@@ -3782,6 +3782,27 @@ body .facets-vertical-sort {
 .right-title,.left-title {
     max-width: 360px;
 }
+.two-image-column a {
+    min-width: 120px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.left-button-link {
+    background: #fff;
+    color: #be3e29;
+}
+
+.right-button-link {
+    background: #dd1d1d;
+    color: #fff;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
