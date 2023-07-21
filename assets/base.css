@@ -3803,6 +3803,9 @@ body .facets-vertical-sort {
     background: #dd1d1d;
     color: #fff;
 }
+.two-image-container {
+    padding: 70px 0 90px;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
@@ -3880,6 +3883,9 @@ body .footer__content-top {
 
 .right-title, .left-title {
     max-width: 250px;
+}
+  .two-image-container {
+    padding: 40px 0 60px;
 }
 }
 @media(max-width:575px){
