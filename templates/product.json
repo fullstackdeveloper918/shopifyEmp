@@ -219,12 +219,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "a627ac2b-8cd0-4958-bb00-d60c07e3c9a0": {
+      "type": "two-image-section",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/warehouse-sale-1-edit_b4323ceb-b.jpg",
+        "left_title": "Warehouse Sale",
+        "left_description": "<p>Our most anticipated sale of discontinued items has finally arrived! While supplies last.<\/p>",
+        "left_button": "Shop Sale",
+        "left_link": "shopify:\/\/collections",
+        "right_image": "shopify:\/\/shop_images\/Box-Mockup-Banner.jpg",
+        "right_tile": "Open Box Deal",
+        "right_description": "<p> Their return, your reward! Starting today, shop new exclusive products for less.<\/p>",
+        "right_button": "Save Now",
+        "right_link": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "a627ac2b-8cd0-4958-bb00-d60c07e3c9a0"
   ]
 }
