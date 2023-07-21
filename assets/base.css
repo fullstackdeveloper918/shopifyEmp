@@ -3813,6 +3813,9 @@ body .facets-vertical-sort {
   .icon-product-section .highlights-banner__block {
     margin-bottom: 30px;
 }
+  .icon-product-section {
+    padding-bottom: 60px;
+}
 }
 @media(max-width:767px){
   .slideshow__controls .slider-button {
@@ -3896,7 +3899,7 @@ body .footer__content-top {
     padding: 40px 0 60px;
 }
   .icon-product-section {
-    padding-bottom: 60px;
+    padding-bottom:40px;
 }
 }
 @media(max-width:575px){
