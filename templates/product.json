@@ -234,6 +234,19 @@
         "right_button": "Save Now",
         "right_link": "shopify:\/\/collections\/all"
       }
+    },
+    "7a43d0d9-99ee-48fb-be4f-71a66f01da94": {
+      "type": "4-column-section",
+      "settings": {
+        "title": "Free Shipping",
+        "desctiption": "<p>When you spend $50 or more<\/p>",
+        "title1": "Here To Help",
+        "desctiption1": "<p>Get in touch with us 7 days a week<\/p>",
+        "title2": "Store Pickup",
+        "desctiption2": "<p>Pick up your order yourself, for free<\/p>",
+        "title3": "Easy Exchanges",
+        "desctiption3": "<p>Return or exchange within 60 days<\/p>"
+      }
     }
   },
   "order": [
@@ -241,6 +254,7 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "a627ac2b-8cd0-4958-bb00-d60c07e3c9a0"
+    "a627ac2b-8cd0-4958-bb00-d60c07e3c9a0",
+    "7a43d0d9-99ee-48fb-be4f-71a66f01da94"
   ]
 }
