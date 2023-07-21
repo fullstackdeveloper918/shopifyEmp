@@ -3806,6 +3806,9 @@ body .facets-vertical-sort {
 .two-image-container {
     padding: 70px 0 90px;
 }
+.icon-product-section {
+    padding-bottom: 90px;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
@@ -3886,6 +3889,9 @@ body .footer__content-top {
 }
   .two-image-container {
     padding: 40px 0 60px;
+}
+  .icon-product-section {
+    padding-bottom: 60px;
 }
 }
 @media(max-width:575px){
