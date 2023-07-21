@@ -3855,6 +3855,32 @@ body .footer__content-top {
   .slider-buttons .slider-counter {
     font-size: 18px;
 }
+  .two-image-row {
+    flex-wrap: wrap;
+}
+
+.two-image-column {
+    padding: 30px 20px;
+}
+
+.two-image-column h2 {
+    font-size: 25px;
+}
+
+.two-image-column p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.two-image-column a {
+    font-size: 14px;
+    height: 35px;
+    min-width: 100px;
+}
+
+.right-title, .left-title {
+    max-width: 250px;
+}
 }
 @media(max-width:575px){
   .highlights-banner__block:last-child {
