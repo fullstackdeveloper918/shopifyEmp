@@ -3760,6 +3760,28 @@ body .facets-vertical-sort {
     background: transparent;
     border: 1px solid #ddd;
 }
+.two-image-row {
+    display: flex;
+    gap: 20px;
+}
+.two-image-column {
+    background-size: cover;
+    padding: 50px 30px;
+    width: 100%;
+}
+.two-image-column h2 {
+    margin: 0;
+    font-size: 35px;
+    color: #fff;
+}
+.two-image-column p {
+    color: #fff;
+    font-size: 18px;
+    line-height: initial;
+}
+.right-title,.left-title {
+    max-width: 360px;
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
