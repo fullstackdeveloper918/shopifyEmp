@@ -1,0 +1,90 @@
+<div class="two-image-container">
+  <div class="two-image-row">
+     <div class="two-image-column" style="background-image: url('{{ section.settings.left_image | img_url : '' }}')">
+        <div class="left-title">
+          <h2 class="left-title-heading">{{ section.settings.left_title }}</h2>
+          {{ section.settings.left_description }}
+        </div>
+        <div class="left-button">
+          <a class="left-button-link" href="{{ section.settings.left_link }}">{{ section.settings.left_button }}</a>
+        </div>
+     </div>
+     <div class="two-image-column" style="background-image: url('{{ section.settings.right_image | img_url : '' }}')">
+        <div class="right-title">
+          <h2 class="right-title-heading">{{ section.settings.right_tile }}</h2>
+          {{ section.settings.right_description }}
+        </div>
+        <div class="right-button">
+          <a class="right-button-link" href="{{ section.settings.right_link }}">{{ section.settings.right_button }}</a>
+        </div>
+     </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "two-image-section",
+    "settings": [
+      {
+        "type" : "image_picker",
+        "id" : "left_image",
+        "label" : "Left Image"
+      },
+      {
+        "type" : "text",
+        "id" : "left_title",
+        "label" : "Left Title"
+      },
+      {
+        "type" : "richtext",
+        "id" : "left_description",
+        "label" : "Left Description"
+      },
+      {
+        "type" : "text",
+        "id" : "left_button",
+        "label" : "Left Button"
+      },
+      {
+        "type" : "url",
+        "id" : "left_link",
+        "label" : "Button Link"
+      },
+      {
+        "type" : "image_picker",
+        "id" : "right_image",
+        "label" : "Right Image"
+      },
+      {
+        "type" : "text",
+        "id" : "right_tile",
+        "label" : "Right Title"
+      },
+      {
+        "type" : "richtext",
+        "id" : "right_description",
+        "label" : "Right Description"
+      },
+      {
+        "type" : "text",
+        "id" : "right_button",
+        "label" : "Right Button"
+      },
+      {
+        "type" : "url",
+        "id" : "right_link",
+        "label" : "Button Link"
+      } 
+    ],
+    "presets" : [
+      {
+        "name" : "two-image-section"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
