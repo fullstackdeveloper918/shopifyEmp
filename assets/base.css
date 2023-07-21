@@ -3809,6 +3809,9 @@ body .collection slider-component:not(.page-width-desktop) {
 body .footer__content-top {
     padding: 0 15px;
 }
+  .slider-buttons .slider-counter {
+    font-size: 18px;
+}
 }
 @media(max-width:575px){
   .highlights-banner__block:last-child {
