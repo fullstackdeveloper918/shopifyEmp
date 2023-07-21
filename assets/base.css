@@ -3800,6 +3800,9 @@ body .collection slider-component:not(.page-width-desktop) {
     font-size: 14px;
     min-height: 40px;
 }
+.product.main-product-page.grid {
+    padding: 0;
+}
 }
 @media(max-width:575px){
   .highlights-banner__block:last-child {
