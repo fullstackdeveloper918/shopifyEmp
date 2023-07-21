@@ -3806,7 +3806,7 @@ body .collection slider-component:not(.page-width-desktop) {
 .main-product-page .product__info-wrapper .product__info-container h1 {
     font-size: 25px;
 }
-.footer__content-top {
+body .footer__content-top {
     padding: 0 15px;
 }
 }
