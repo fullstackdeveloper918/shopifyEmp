@@ -3809,6 +3809,11 @@ body .facets-vertical-sort {
 .icon-product-section {
     padding-bottom: 90px;
 }
+@media(max-width:1199px){
+  .icon-product-section .highlights-banner__block {
+    margin-bottom: 30px;
+}
+}
 @media(max-width:767px){
   .slideshow__controls .slider-button {
     display: none;
