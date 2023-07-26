@@ -1,7 +1,10 @@
 
-{%assign video = section.settings.video %}      
+{%assign video = section.settings.video %}    
+{%if video == blank %}
+  {%assign video = "https://www.youtube.com/watch?v=_9VUPq3SxOc" %} 
+{%endif%} 
 <div class="hero_video_section">
-{{ section.settings.video | video_tag: image_size: '1100x', autoplay: true, loop: true, controls: false, muted: true }}
+{{ video | video_tag: image_size: '100%', autoplay: true, loop: true, controls: false, muted: true }}
 </div> 
   
 {% schema %}
