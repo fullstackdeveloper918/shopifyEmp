@@ -2,6 +2,7 @@
   "sections": {
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--19475809829147__aa0af20e-397e-42ae-a0a2-79b3983cce3c-1688479024eade916c-0": {
           "type": "slide",
