@@ -1,18 +1,8 @@
-{%- liquid
-  assign video_id = section.settings.video.id | default: section.settings.video_url.id
-  assign video_alt = section.settings.video.alt | default: section.settings.description
- 
-  if section.settings.video != null
-    assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
-    if ratio_diff < 0.01 and ratio_diff > 0
-      assign fix_ratio = true
-    endif
-  endif
--%}
 
+{%assign videourl = section.settings.video %}      
 <div class="hero_video_section">
 <video width="100%" height="100%" controls>
-  <source src="movie.mp4" type="video/mp4">
+  <source src="{{ videourl }}" type="video/mp4">
 </video>
 </div> 
   
