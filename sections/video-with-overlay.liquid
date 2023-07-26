@@ -1,10 +1,12 @@
+<d>
 
 {%assign video = section.settings.video %}    
 
-<div class="hero_video_section">
-{{ video | video_tag: image_size: '100%', autoplay: true, loop: true, controls: false, muted: true }}
-</div> 
-  
+{%if video != blank %}
+  <div class="hero_video_section">
+  {{ video | video_tag: image_size: '100%', autoplay: true, loop: true, controls: false, muted: true }}
+  </div> 
+{%endif%}  
 {% schema %}
 {
   "name": "Overlay Video Section",
