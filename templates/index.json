@@ -97,7 +97,7 @@
     "9463ca5c-ca95-4e1c-8d0e-a32e11970577": {
       "type": "video-with-overlay",
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=K4TOrB7at0Y",
+        "video": "shopify:\/\/files\/videos\/demo.mp4",
         "overlay_heading": "sdfsdf",
         "overlay_content": "sdfsdf"
       }
