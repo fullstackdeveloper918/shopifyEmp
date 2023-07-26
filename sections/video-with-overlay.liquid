@@ -7,6 +7,16 @@
     {{ video | video_tag: image_size: '100%', autoplay: true, loop: true, controls: false, muted: true }}
     </div> 
   {%endif%} 
+  <div class="video_overlay">
+    {%if section.settings.overlay_heading != blank %}
+    <h2>{{ section.settings.overlay_heading }}</h2>
+    {%endif%}  
+  {%if section.settings.overlay_content != blank %}
+    <div class="overlay_content">
+      <p>{{section.settings.overlay_content}}</p>
+    </div> 
+  {%endif%}  
+  </div>  
 </div>  
 {% schema %}
 {
