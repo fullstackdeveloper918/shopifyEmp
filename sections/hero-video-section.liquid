@@ -1,0 +1,52 @@
+{%- liquid
+  assign video_id = section.settings.video.id | default: section.settings.video_url.id
+  assign video_alt = section.settings.video.alt | default: section.settings.description
+  assign alt = 'sections.video.load_video' | t: description: video_alt | escape
+  assign poster = section.settings.video.preview_image | default: section.settings.cover_image
+
+  if section.settings.video != null
+    assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
+    if ratio_diff < 0.01 and ratio_diff > 0
+      assign fix_ratio = true
+    endif
+  endif
+-%}
+
+<div class="hero_video_section">
+<iframe src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+
+</div>
+
+{% schema %}
+{
+  "name": "Hero Video Section",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "video",
+      "default": "Video URL"
+    },
+	{
+      "type": "text",
+      "id": "overlay_heading",
+      "default": "Overlay text heading"
+    },
+	{
+      "type": "html",
+      "id": "overlay_content",
+      "default": "Overlay Content"
+    }	
+
+  ],
+  "presets": [
+    {
+      "name": "Hero Video Section"
+    }
+  ]
+}
+{% endschema %} 
