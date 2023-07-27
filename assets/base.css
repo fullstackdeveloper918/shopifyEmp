@@ -98,6 +98,10 @@ p {
     font-size: 18px;
     line-height: 34px;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+p:last-child{
+  margin-bottom: 0px;
 }
 
 /* home css end  */
