@@ -76,6 +76,7 @@
 /* home css start */
 .hero_video_section {
     position: relative;
+    height: 800px;
 }
 .video_overlay {
     position: absolute;
