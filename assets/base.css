@@ -96,6 +96,7 @@
 }
 .banner_video video {
     width: 100%;
+    position: relative;
 }
 p {
     font-size: 18px;
