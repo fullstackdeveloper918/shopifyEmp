@@ -73,6 +73,19 @@
 
 /* base */
 
+/* home css start */
+.hero_video_section {
+    position: relative;
+}
+.video_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+}
+/* home css end  */
 .no-js:not(html) {
   display: none !important;
 }
