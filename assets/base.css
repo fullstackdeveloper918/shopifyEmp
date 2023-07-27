@@ -79,7 +79,7 @@
 }
 .video_overlay {
     position: absolute;
-    top: 50%;
+    top: 45%;
     z-index: 1;
     text-align: center;
     margin: auto;
