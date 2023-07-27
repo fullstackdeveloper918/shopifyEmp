@@ -94,6 +94,9 @@
     margin: 0 0 20px;
     color: #fff;
 }
+.banner_video video {
+    width: 100%;
+}
 p {
     font-size: 18px;
     line-height: 34px;
