@@ -78,14 +78,15 @@
     position: relative;
 }
 .video_overlay {
-	position: absolute;
-	top: 50%;
-	z-index: 1;
-	text-align: center;
-	margin: auto;
-	color: #fff;
-	left: 0;
-	right: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    left: 0;
+    right: 0;
+    max-width: 1200px;
 }
 .video_overlay h2 {
     font-size: 60px;
