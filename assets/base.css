@@ -96,9 +96,14 @@
     margin: 0 0 20px;
     color: #fff;
 }
-
+.hero_video_section{
+    position: relative;    
+} 
 
 /* home css end  */
+
+
+
 .no-js:not(html) {
   display: none !important;
 }
