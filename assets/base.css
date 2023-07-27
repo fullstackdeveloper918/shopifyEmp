@@ -94,7 +94,11 @@
     margin: 0 0 20px;
     color: #fff;
 }
-
+p {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 400;
+}
 
 /* home css end  */
 
