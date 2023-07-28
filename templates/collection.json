@@ -36,8 +36,9 @@
         "ac9334d6-d3e3-4292-a4c6-501854765b11": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/travel.png",
+            "title": "TRAVEL",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -45,8 +46,9 @@
         "b5a75579-8076-4fb1-856c-06360b348bb4": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/waterbottle.png",
+            "title": "WATER BOTTLE",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -54,8 +56,9 @@
         "9413a839-a001-4e1b-a58b-1fe2165bac76": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/coffee-1686239761715.png",
+            "title": "COFFEE",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -75,7 +78,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",

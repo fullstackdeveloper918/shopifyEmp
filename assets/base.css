@@ -1,10 +1,10 @@
-/* :root {
+:root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
 }
- */
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -119,11 +119,6 @@ p {
 }
 p:last-child{
   margin-bottom: 0px;
-}
-.header .search-modal__form {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #f2f5f9 !important;
 }
 .search-modal__form .search__button {
     background: #27b3bc !important;
@@ -1593,13 +1588,13 @@ details[open] > .share-button__fallback {
   transition: none;
 }
 
-/* .share-button__fallback .field__input:focus,
+.share-button__fallback .field__input:focus,
 .share-button__fallback .field__input:-webkit-autofill {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   outline-offset: 0.1rem;
   box-shadow: 0 0 0 0.1rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
- */
+
 .share-button__fallback .field__input {
   box-shadow: none;
   text-overflow: ellipsis;
@@ -1653,7 +1648,7 @@ details[open] > .share-button__fallback {
   position: relative;
   border: 0;
 }
-/* 
+
 .field:before,
 .select:before,
 .customer .field:before,
@@ -1671,7 +1666,7 @@ details[open] > .share-button__fallback {
     var(--inputs-shadow-blur-radius) rgba(var(--color-shadow), var(--inputs-shadow-opacity));
   z-index: -1;
 }
- */
+
 .field:after,
 .select:after,
 .customer .field:after,
@@ -1711,16 +1706,16 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-/* .field__input:focus-visible,
+.field__input:focus-visible,
 .select__select:focus-visible,
 .customer .field input:focus-visible,
 .customer select:focus-visible,
 .localization-form__select:focus-visible.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+/*   box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
- */
+
 .field__input:focus,
 .select__select:focus,
 .customer .field input:focus,
@@ -1765,13 +1760,13 @@ details[open] > .share-button__fallback {
 
 /* Field */
 
-/* .field {
+.field {
   position: relative;
   width: 100%;
   display: flex;
   transition: box-shadow var(--duration-short) ease;
 }
- */
+
 .customer .field {
   display: flex;
 }
@@ -1779,7 +1774,7 @@ details[open] > .share-button__fallback {
 .field--with-error {
   flex-wrap: wrap;
 }
-/* 
+
 .field__input,
 .customer .field input {
   flex-grow: 1;
@@ -1787,7 +1782,7 @@ details[open] > .share-button__fallback {
   padding: 1.5rem;
   margin: var(--inputs-border-width);
   transition: box-shadow var(--duration-short) ease;
-} */
+}
 
 .field__label,
 .customer .field label {
@@ -1837,6 +1832,7 @@ details[open] > .share-button__fallback {
 
 .field__button {
   align-items: center;
+  background-color: transparent;
   border: 0;
   color: currentColor;
   cursor: pointer;
@@ -2358,10 +2354,12 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: 'left-icons heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
 }
+
 @media screen and (max-width: 749px) {
   .header--has-app {
     grid-template-columns: auto 1fr auto;
