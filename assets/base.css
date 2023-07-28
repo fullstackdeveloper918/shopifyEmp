@@ -158,9 +158,8 @@ p:last-child{
 .round-shape-row .card__information {
     padding: 0 !important;
 }
-.round-shape-row .contains-card--collection li.grid__item {
-    width: calc(100% / 8 - 10px) !important;
-    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+.round-shape-row li.grid__item {
+    width: calc(100% / 8 - 10px) !important;;
 }
 /* home css end  */
 
