@@ -132,7 +132,7 @@ p:last-child{
     box-shadow: unset !important;
 }
 
-.round-shape-row .card img {
+.round-shape-row .card img, .round-shape-row .card svg {
     border-radius: 500px;
     width: 120px!important;
     height: 120px!important;
