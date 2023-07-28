@@ -139,7 +139,7 @@ p:last-child{
     transition: unset !important;
     transform: unset !important;
 }
-.round-shape-row .card__inner {
+.list-grid .card__inner {
     background-color: transparent !important;
 }
 .round-shape-row  h3.card__heading {
