@@ -142,6 +142,9 @@ p:last-child{
 .list-grid .card__inner {
     background-color: transparent !important;
 }
+.list-grid .card__information {
+    padding: 0px;
+}
 .list-grid .icon-wrap{
   display: none !important;
 }
