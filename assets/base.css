@@ -2360,6 +2360,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
     align-items: center;
     flex-wrap: wrap;
 }
+.header .search-modal__form {
+    max-width: 500px !important;
+    margin: 0 auto !important;
+}
 
 @media screen and (max-width: 749px) {
   .header--has-app {
