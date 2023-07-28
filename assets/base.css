@@ -142,20 +142,15 @@ p:last-child{
 .list-grid .card__inner {
     background-color: transparent !important;
 }
-.round-shape-row  h3.card__heading {
-    text-align: center !important;
-}
 .list-grid .icon-wrap{
   display: none !important;
 }
-/* .round-shape-row .contains-card--collection {
-	display: flex;
-	flex-wrap: nowrap;
-	max-width: 720px;
-	margin: 0 auto;
-	justify-content: center;
-} */
-h3.card__heading {
+.list-grid  .card.card--standard.card--media {
+    justify-content: center;
+    max-width: 160px;
+    margin: 0 auto;
+}
+.list-grid h3.card__heading {
     text-align: center;
 }
 .list-grid .collection-list .collection-list__item {
