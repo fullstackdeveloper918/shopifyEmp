@@ -140,6 +140,22 @@
         "padding_bottom": 12
       }
     },
+    "16905440046ea92773": {
+      "type": "apps",
+      "blocks": {
+        "98d154df-14fa-4d73-a851-b9139e205196": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "98d154df-14fa-4d73-a851-b9139e205196"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -255,6 +271,7 @@
   },
   "order": [
     "main",
+    "16905440046ea92773",
     "related-products",
     "a627ac2b-8cd0-4958-bb00-d60c07e3c9a0",
     "7a43d0d9-99ee-48fb-be4f-71a66f01da94",
