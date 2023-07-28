@@ -158,7 +158,7 @@ p:last-child{
 .round-shape-row .card__information {
     padding: 0 !important;
 }
-.round-shape-row .collection-list .collection-list__item {
+.list-grid .collection-list .collection-list__item {
     width: calc(100% / 8 - 10px) !important;;
 }
 /* home css end  */
