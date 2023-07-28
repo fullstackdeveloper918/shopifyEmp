@@ -415,8 +415,9 @@
         "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/img_11.png",
+            "title": "Diet & Nutrition",
+            "text": "<p>Pair text with an image to focus on your chosen product.<\/p>",
             "link_label": "",
             "link": ""
           }
