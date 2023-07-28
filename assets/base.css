@@ -146,7 +146,7 @@ p:last-child{
     text-align: center !important;
 }
 .round-shape-row .icon-wrap{
-  display: none;
+  display: none !important;
 }
 /* home css end  */
 
