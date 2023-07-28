@@ -175,6 +175,7 @@
     },
     "1aa84eaa-3902-4664-8cf0-a328733b989d": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0": {
           "type": "image",
@@ -218,6 +219,7 @@
     },
     "9c594fe4-89b7-4e5a-9ded-0df30327f62e": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-0": {
           "type": "text",
@@ -327,7 +329,7 @@
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
