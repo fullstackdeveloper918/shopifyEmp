@@ -133,9 +133,11 @@ p:last-child{
 }
 
 .round-shape-row .card img {
-	border-radius: 500px;
-	width: 220px !important;
-	height: 220px !important;
+    border-radius: 500px;
+    width: 220px!important;
+    height: 220px!important;
+    transition: unset !important;
+    transform: unset !important;
 }
 .round-shape-row .card__inner {
     background-color: transparent !important;
