@@ -161,6 +161,12 @@
           "settings": {
             "collection": "water-bottles"
           }
+        },
+        "b6362845-7c42-49d6-a57a-3983f8b0bead": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -170,10 +176,11 @@
         "b55df406-ffae-4eca-b7bc-9f4d1f470cd7",
         "aebbf4f6-afc8-45c6-8100-9bc8c80c4d17",
         "bfa607e0-51e2-41a7-a8ad-2d81f783372f",
-        "f25721d0-2084-4e4c-b3f0-67adb4c08e2b"
+        "f25721d0-2084-4e4c-b3f0-67adb4c08e2b",
+        "b6362845-7c42-49d6-a57a-3983f8b0bead"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
