@@ -148,9 +148,9 @@ p:last-child{
 .list-grid .icon-wrap{
   display: none !important;
 }
-.list-grid  .card.card--standard.card--media {
+.list-grid .card.card--standard.card--media {
     justify-content: center;
-    max-width: 160px;
+    max-width: 135px;
     margin: 0 auto;
 }
 .list-grid h3.card__heading {
