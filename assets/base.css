@@ -132,12 +132,12 @@ p:last-child{
     box-shadow: unset !important;
 }
 
-.card img {
+.round-shape-row .card img {
 	border-radius: 500px;
 	width: 220px !important;
 	height: 220px !important;
 }
-.card__inner {
+.round-shape-row .card__inner {
     background-color: transparent !important;
 }
 /* home css end  */
