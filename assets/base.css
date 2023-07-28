@@ -1770,20 +1770,6 @@ details[open] > .share-button__fallback {
   flex-wrap: wrap;
 }
 
-.field__label,
-.customer .field label {
-  font-size: 1.6rem;
-  left: calc(var(--inputs-border-width) + 2rem);
-  top: calc(1rem + var(--inputs-border-width));
-  margin-bottom: 0;
-  pointer-events: none;
-  position: absolute;
-  transition: top var(--duration-short) ease, font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 0.75);
-  letter-spacing: 0.1rem;
-  line-height: 1.5;
-}
-
 .field__input:focus ~ .field__label,
 .field__input:not(:placeholder-shown) ~ .field__label,
 .field__input:-webkit-autofill ~ .field__label,
