@@ -157,6 +157,9 @@ p:last-child{
 .list-grid .collection-list .collection-list__item {
     width: calc(100% / 8 - 10px) !important;;
 }
+.collection__description p {
+    text-align: center;
+}
 /* home css end  */
 
 
