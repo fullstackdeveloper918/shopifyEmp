@@ -120,11 +120,6 @@ p {
 p:last-child{
   margin-bottom: 0px;
 }
-.header .search-modal__form {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #f2f5f9 !important;
-}
 /* home css end  */
 
 
@@ -2349,10 +2344,12 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: 'left-icons heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
 }
+
 @media screen and (max-width: 749px) {
   .header--has-app {
     grid-template-columns: auto 1fr auto;
