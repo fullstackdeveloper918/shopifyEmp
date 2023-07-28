@@ -1770,15 +1770,6 @@ details[open] > .share-button__fallback {
   flex-wrap: wrap;
 }
 
-.field__input,
-.customer .field input {
-  flex-grow: 1;
-  text-align: left;
-  padding: 1.5rem;
-  margin: var(--inputs-border-width);
-  transition: box-shadow var(--duration-short) ease;
-}
-
 .field__label,
 .customer .field label {
   font-size: 1.6rem;
