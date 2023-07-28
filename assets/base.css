@@ -134,8 +134,8 @@ p:last-child{
 
 .round-shape-row .card img {
     border-radius: 500px;
-    width: 220px!important;
-    height: 220px!important;
+    width: 120px!important;
+    height: 120px!important;
     transition: unset !important;
     transform: unset !important;
 }
