@@ -388,6 +388,61 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "de0c8b76-7e5e-4f76-8669-04b0efbb1155": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_09.png",
+            "title": "New products",
+            "text": "<p>Shop Vitamins<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/featured-collection"
+          }
+        },
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_10_48bb0bc0-7114-4e92-9d35-e.png",
+            "title": "Skin Care",
+            "text": "<p>Save 10% on all items!<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/hot-deals"
+          }
+        },
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1",
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2",
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -399,6 +454,7 @@
     "9c594fe4-89b7-4e5a-9ded-0df30327f62e",
     "3f310ecb-b52a-43a6-9e5a-3442d913284f",
     "476054f9-dd5b-4b6c-86b9-87b4dbd07c49",
-    "be890f48-f024-410a-9422-754b7922a5e3"
+    "be890f48-f024-410a-9422-754b7922a5e3",
+    "de0c8b76-7e5e-4f76-8669-04b0efbb1155"
   ]
 }
