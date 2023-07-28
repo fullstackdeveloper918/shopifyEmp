@@ -166,7 +166,7 @@ p:last-child{
     left: unset !important;
 }
 .collection .slider-button.slider-button--next {
-    right: 133px;
+    right: 133px !important;
     top: -90px !important;
 }
 /* home css end  */
