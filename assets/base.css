@@ -145,7 +145,7 @@ p:last-child{
 .round-shape-row  h3.card__heading {
     text-align: center !important;
 }
-.round-shape-row .icon-wrap{
+.list-grid .icon-wrap{
   display: none !important;
 }
 /* .round-shape-row .contains-card--collection {
@@ -155,8 +155,8 @@ p:last-child{
 	margin: 0 auto;
 	justify-content: center;
 } */
-.round-shape-row .card__information {
-    padding: 0 !important;
+h3.card__heading {
+    text-align: center;
 }
 .list-grid .collection-list .collection-list__item {
     width: calc(100% / 8 - 10px) !important;;
