@@ -1809,7 +1809,7 @@ details[open] > .share-button__fallback {
   letter-spacing: 0.04rem;
 }
 
-.field__input:focus,
+/* .field__input:focus,
 .field__input:not(:placeholder-shown),
 .field__input:-webkit-autofill,
 .customer .field input:focus,
@@ -1818,7 +1818,7 @@ details[open] > .share-button__fallback {
   padding: 2.2rem 1.5rem 0.8rem 2rem;
   margin: var(--inputs-border-width);
 }
-
+ */
 .field__input::-webkit-search-cancel-button,
 .customer .field input::-webkit-search-cancel-button {
   display: none;
