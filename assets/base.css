@@ -143,7 +143,7 @@ p:last-child{
     background-color: transparent !important;
 }
 .round-shape-row  h3.card__heading {
-    text-align: center;
+    text-align: center !important;
 }
 /* home css end  */
 
