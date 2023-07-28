@@ -138,6 +138,9 @@ p:last-child{
     height: 120px!important;
     transition: unset !important;
     transform: unset !important;
+  right: 0 !important;
+    left: 0 !important;
+    margin: 0 auto !important;
 }
 .list-grid .card__inner {
     background-color: transparent !important;
@@ -147,11 +150,6 @@ p:last-child{
 }
 .list-grid .icon-wrap{
   display: none !important;
-}
-.list-grid .card.card--standard.card--media {
-    justify-content: center;
-    max-width: 135px;
-    margin: 0 auto;
 }
 .list-grid h3.card__heading {
     text-align: center;
