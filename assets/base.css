@@ -120,7 +120,7 @@ p {
 p:last-child{
   margin-bottom: 0px;
 }
-.search-modal__form {
+.header .search-modal__form {
     max-width: 500px;
     margin: 0 auto;
     background-color: #f2f5f9 !important;
