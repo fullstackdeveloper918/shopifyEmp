@@ -192,122 +192,6 @@
         "padding_bottom": 36
       }
     },
-    "1aa84eaa-3902-4664-8cf0-a328733b989d": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/storm-cloud.jpg",
-            "image_heading": "Seasonal Clearance Sale",
-            "image_text": "Save up to 40%",
-            "image_btn_text": "Shop all",
-            "image_btn_link": "#"
-          }
-        },
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1": {
-          "type": "product",
-          "settings": {
-            "product": "all-in-one-cast-iron-grill",
-            "second_image": false
-          }
-        },
-        "cc33f774-3e2e-4a16-85fd-3a5810762d2c": {
-          "type": "collection",
-          "settings": {
-            "collection": "featured-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-0",
-        "template--19475809829147__1aa84eaa-3902-4664-8cf0-a328733b989d-16885558070d8d69df-1",
-        "cc33f774-3e2e-4a16-85fd-3a5810762d2c"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "9c594fe4-89b7-4e5a-9ded-0df30327f62e": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-2": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-0",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-1",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-2",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-3",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-4",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-5",
-        "template--19475809829147__9c594fe4-89b7-4e5a-9ded-0df30327f62e-168855360331cf0e26-6"
-      ],
-      "settings": {
-        "product": "all-in-one-cast-iron-grill",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "3f310ecb-b52a-43a6-9e5a-3442d913284f": {
       "type": "featured-collection",
       "settings": {
@@ -334,6 +218,62 @@
         "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "de0c8b76-7e5e-4f76-8669-04b0efbb1155": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_09.png",
+            "title": "New products",
+            "text": "<p>Shop Vitamins<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/featured-collection"
+          }
+        },
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_10_48bb0bc0-7114-4e92-9d35-e.png",
+            "title": "Skin Care",
+            "text": "<p>Save 10% on all items!<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/hot-deals"
+          }
+        },
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_11.png",
+            "title": "Diet & Nutrition",
+            "text": "<p>Get 2 items, get 1 for free!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1",
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2",
+        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "476054f9-dd5b-4b6c-86b9-87b4dbd07c49": {
@@ -388,62 +328,6 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "de0c8b76-7e5e-4f76-8669-04b0efbb1155": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/img_09.png",
-            "title": "New products",
-            "text": "<p>Shop Vitamins<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/featured-collection"
-          }
-        },
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/img_10_48bb0bc0-7114-4e92-9d35-e.png",
-            "title": "Skin Care",
-            "text": "<p>Save 10% on all items!<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/hot-deals"
-          }
-        },
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/img_11.png",
-            "title": "Diet & Nutrition",
-            "text": "<p>Get 2 items, get 1 for free!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-1",
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-2",
-        "template--19475809829147__de0c8b76-7e5e-4f76-8669-04b0efbb1155-column-3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -451,11 +335,9 @@
     "9463ca5c-ca95-4e1c-8d0e-a32e11970577",
     "1a39f1b8-8619-404a-b004-57b557722763",
     "22474be5-7711-42ce-9247-dd6e0b5f5ce2",
-    "1aa84eaa-3902-4664-8cf0-a328733b989d",
-    "9c594fe4-89b7-4e5a-9ded-0df30327f62e",
     "3f310ecb-b52a-43a6-9e5a-3442d913284f",
+    "de0c8b76-7e5e-4f76-8669-04b0efbb1155",
     "476054f9-dd5b-4b6c-86b9-87b4dbd07c49",
-    "be890f48-f024-410a-9422-754b7922a5e3",
-    "de0c8b76-7e5e-4f76-8669-04b0efbb1155"
+    "be890f48-f024-410a-9422-754b7922a5e3"
   ]
 }
