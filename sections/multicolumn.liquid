@@ -130,7 +130,7 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a
+                  <span
                     class="link animate-arrow"
                     {% if block.settings.link == blank %}
                       role="link" aria-disabled="true"
@@ -139,13 +139,15 @@
                     {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
-                  >
+                  {%comment%}
+                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+                  {%endcomment%}  
+                  </span>
                 {%- endif -%}
               </div>
             </div>
             {%if block.settings.link != blank %} 
-          </a>
+          </span>
          {%endif%}  
           </li>
         {%- endfor -%}

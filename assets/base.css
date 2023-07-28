@@ -145,6 +145,9 @@ p:last-child{
 .round-shape-row  h3.card__heading {
     text-align: center !important;
 }
+.round-shape-row .icon-wrap{
+  display: none;
+}
 /* home css end  */
 
 
