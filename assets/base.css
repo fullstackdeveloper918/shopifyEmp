@@ -145,7 +145,7 @@ p:last-child{
 .round-shape-row  h3.card__heading {
     text-align: center !important;
 }
-.round-shape-row .icon-wrap{
+.round-shape-row .icon-wrap, .round-shape-row  .ratio::before{
   display: none !important;
 }
 .round-shape-row .contains-card--collection {
