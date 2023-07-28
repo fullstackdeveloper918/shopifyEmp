@@ -148,6 +148,13 @@ p:last-child{
 .round-shape-row .icon-wrap{
   display: none !important;
 }
+.round-shape-row .contains-card--collection {
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: 720px;
+	margin: 0 auto;
+	justify-content: center;
+}
 /* home css end  */
 
 
