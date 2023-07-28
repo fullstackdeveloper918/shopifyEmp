@@ -160,6 +160,11 @@ p:last-child{
 .collection__description p {
     text-align: center;
 }
+ .home .slider-button--prev {
+    top: -90px !important;
+    right: 200px !important;
+    left: unset !important;
+}
 /* home css end  */
 
 
