@@ -73,7 +73,7 @@
         "9413a839-a001-4e1b-a58b-1fe2165bac76"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -139,16 +139,7 @@
         "d56ec718-2d05-4e36-ad68-39a6c4fba86b"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 12,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": ""
       }
     },
     "banner": {
