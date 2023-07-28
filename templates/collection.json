@@ -1,5 +1,66 @@
 {
   "sections": {
+    "6c8048dd-33bf-4964-b114-2f032293650e": {
+      "type": "round-menu-row",
+      "blocks": {
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "5a15c2d1-5005-4af6-9c76-7d4f7907b7ea": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8cead22e-16de-413b-9363-f5509d9d5028": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "d56ec718-2d05-4e36-ad68-39a6c4fba86b": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-1",
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-2",
+        "template--19475809763611__6c8048dd-33bf-4964-b114-2f032293650e-collection-3",
+        "5a15c2d1-5005-4af6-9c76-7d4f7907b7ea",
+        "8cead22e-16de-413b-9363-f5509d9d5028",
+        "d56ec718-2d05-4e36-ad68-39a6c4fba86b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 12,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -29,6 +90,7 @@
     }
   },
   "order": [
+    "6c8048dd-33bf-4964-b114-2f032293650e",
     "banner",
     "product-grid"
   ]
