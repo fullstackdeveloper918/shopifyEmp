@@ -125,6 +125,10 @@ p:last-child{
     margin: 0 auto;
     background-color: #f2f5f9 !important;
 }
+.search-modal__form .search__button {
+    background: #27b3bc !important;
+    color: #fff;
+}
 /* home css end  */
 
 
@@ -1827,7 +1831,6 @@ details[open] > .share-button__fallback {
 
 .field__button {
   align-items: center;
-  background-color: transparent;
   border: 0;
   color: currentColor;
   cursor: pointer;
