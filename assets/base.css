@@ -134,13 +134,13 @@ p:last-child{
 
 .list-grid .card__media img {
     border-radius: 500px;
-    width: 120px!important;
-    height: 120px!important;
-    transition: unset !important;
-    transform: unset !important;
-  right: 0 !important;
-    left: 0 !important;
-    margin: 0 auto !important;
+    width: 150px!important;
+    height: 150px!important;
+    transition: unset!important;
+    transform: unset!important;
+    right: 0!important;
+    left: 0!important;
+    margin: 0 auto!important;
 }
 .list-grid .card__inner {
     background-color: transparent !important;
@@ -164,6 +164,10 @@ p:last-child{
     top: -90px !important;
     right: 200px !important;
     left: unset !important;
+}
+.collection .slider-button.slider-button--next {
+    right: 133px;
+    top: -90px !important;
 }
 /* home css end  */
 
