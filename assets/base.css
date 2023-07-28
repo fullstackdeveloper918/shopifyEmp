@@ -134,8 +134,11 @@ p:last-child{
 
 .card img {
 	border-radius: 500px;
-	width: 250px !important;
-	height: 250px !important;
+	width: 220px !important;
+	height: 220px !important;
+}
+.card__inner {
+    background-color: transparent !important;
 }
 /* home css end  */
 
