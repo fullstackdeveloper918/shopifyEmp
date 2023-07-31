@@ -4210,4 +4210,35 @@ span.utils-viewtoggle-label {
     transition: all ease 0.5s;
 }
 
+@media (max-width:991px)
+{
+  .collection .multicolumn-list {
+    display: flex;
+}
 
+.collection.multicolumn {
+    padding: 30px 0;
+}
+
+.collection.multicolumn .page-width {
+    padding: 0;
+}
+
+.collection.multicolumn .page-width slider-component {
+    padding: 0;
+}
+
+.collection.multicolumn .page-width slider-component ul .multicolumn-card__image-wrapper .media {
+    padding: 10px !important;
+}
+
+.collection.multicolumn .page-width slider-component ul .multicolumn-card__image-wrapper .media img {max-width: 100% !important;}
+
+
+.collection.multicolumn .page-width slider-component ul li .multicolumn-card .multicolumn-card__info {
+    display: none;
+}
+
+.collection.multicolumn .page-width slider-component ul li {width: min-content;}
+
+}
