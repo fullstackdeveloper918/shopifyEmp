@@ -4158,3 +4158,55 @@ span.utils-viewtoggle-label {
     text-decoration: none;
     color: #dd1d1d;
 }
+
+/*** CSS 31-07-2023 **/
+
+.collection {
+    padding: 80px 15px 40px;
+}
+
+.collection ul li.grid__item .multicolumn-card__image-wrapper img.multicolumn-card__image {
+    max-width: 110px !important;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    transform: none;
+    left: 0;
+    top: 0;
+}
+
+.collection ul li.grid__item .multicolumn-card__image-wrapper .media {
+    padding: 0 !important;
+    width: 100%;
+    transform: scale(1);
+    transition: all ease 0.5s;
+}
+
+.collection ul li.grid__item .multicolumn-card__info {
+    padding: 6px 0 0;
+}
+
+.collection ul li.grid__item .multicolumn-card__info h3 {
+    font-size: 15px;
+}
+
+.collection ul li.grid__item {
+   border: none !important;
+   box-shadow: none !important;
+}
+
+.collection ul li.grid__item a {
+    text-decoration: none;
+}
+
+.collection ul li.grid__item a:hover .multicolumn-card__info h3 {
+    color: #ff7f11;
+}
+
+.collection ul li.grid__item a:hover .multicolumn-card__image-wrapper .media {
+    transform: scale(0.8);
+    transition: all ease 0.5s;
+}
+
