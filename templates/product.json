@@ -104,6 +104,7 @@
         },
         "0084388c-f9c7-46c7-8ac4-c3b9cb4a2cac": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
           }
         }
