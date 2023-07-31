@@ -133,7 +133,7 @@
                 {%- if article.excerpt.size > 0 -%}
                   {{ article.excerpt | strip_html | truncatewords: 30 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 30 }} Read More
+                  {{ article.content | strip_html | truncatewords: 30 }} 
                 {%- endif -%}
               </p>
             {%- endif -%}
@@ -143,6 +143,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
+            Read More
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
