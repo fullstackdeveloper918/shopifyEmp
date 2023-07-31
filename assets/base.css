@@ -4242,3 +4242,11 @@ span.utils-viewtoggle-label {
 .collection.multicolumn .page-width slider-component ul li {width: min-content;}
 
 }
+
+@media (max-width:574px)
+{
+.collection.multicolumn .page-width slider-component ul .multicolumn-card__image-wrapper .media {
+    padding: 4px !important;
+}
+  
+}
