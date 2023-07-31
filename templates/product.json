@@ -204,36 +204,54 @@
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How this theme is different from other in market ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
             "page": ""
           }
         },
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Does this theme supports plugins ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
             "page": ""
           }
         },
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do you provide any money back guarantee in this product ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
             "page": ""
           }
         },
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment method do you support ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "page": ""
+          }
+        },
+        "9d55afee-b7f3-4c9b-9f26-07f9c11b8706": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I get money back if I am not satisfied ?",
+            "icon": "none",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "page": ""
+          }
+        },
+        "d5049027-d55c-4d25-ba54-dfd90ead493b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you provide support",
+            "icon": "none",
+            "row_content": "<p>its is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
             "page": ""
           }
         }
@@ -242,7 +260,9 @@
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-1",
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-2",
         "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-3",
-        "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-4"
+        "template--19475809861915__c8cc8a11-0e34-464f-b45d-5ed107fec364-collapsible_row-4",
+        "9d55afee-b7f3-4c9b-9f26-07f9c11b8706",
+        "d5049027-d55c-4d25-ba54-dfd90ead493b"
       ],
       "settings": {
         "caption": "",
