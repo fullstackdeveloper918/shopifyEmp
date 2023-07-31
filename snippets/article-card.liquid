@@ -136,6 +136,7 @@
                   {{ article.content | strip_html | truncatewords: 30 }} 
                 {%- endif -%}
               </p>
+              Read More
             {%- endif -%}
             <div class="article-card__footer">
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
@@ -143,7 +144,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-            Read More
+            
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
