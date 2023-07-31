@@ -1,3 +1,4 @@
+{%for media in product.media  %}
 {%- if media.media_type == 'image' -%}
   <img
     class="global-media-settings global-media-settings--no-shadow{% if variant_image %} product__media-item--variant{% endif %}"
@@ -19,3 +20,4 @@
     data-media-id="{{ media.id }}"
   >
 {%endif%}  
+ {%endfor%}  
