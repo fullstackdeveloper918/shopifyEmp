@@ -61,6 +61,7 @@
 
    {%if section.settings.two_coulmns_layout%}
     <div id="shopify-product-reviews" data-id="{{product.id}}"></div>
+  {{ product.metafields.spr.reviews }}
      {%render 'product-large-image', product: product  %} 
    {%endif%}
     </div>
