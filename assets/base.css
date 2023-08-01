@@ -4250,3 +4250,10 @@ span.utils-viewtoggle-label {
 }
   
 }
+
+/*** CSS for Sticky on product main page **/
+
+.detailed_product .product__info-wrapper {
+    align-items: flex-start;
+}
+
