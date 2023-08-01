@@ -61,12 +61,9 @@
 
    {%if section.settings.two_coulmns_layout%}
    
-     {%if product.metafields.spr.reviews != blank %} 
-     <div class="prduct_reviews">{{ product.metafields.spr.reviews }}</div>  
-     
-      {%else%}
-        <div id="shopify-product-reviews" data-id="{{product.id}}"></div>
-      {%endif%}
+    
+        <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+    
   
      {%render 'product-large-image', product: product  %} 
    {%endif%}
