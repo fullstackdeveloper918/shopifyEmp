@@ -4314,3 +4314,36 @@ span.utils-viewtoggle-label {
     box-shadow: none;
 }
 
+/** Reviews CSS FORM **/
+
+#shopify-product-reviews .spr-content form fieldset input {
+    height: 48px;
+    padding: 5px 15px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+}
+
+#shopify-product-reviews .spr-content form fieldset textarea {
+    padding: 15px 15px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+}
+
+#shopify-product-reviews .spr-content form fieldset input:focus,div#shopify-product-reviews .spr-content form fieldset textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #f04f36;
+}
+
+#shopify-product-reviews .spr-content form fieldset label {
+    font-weight: 800;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 6px !important;
+    display: inline-block;
+}
+
+#shopify-product-reviews .spr-header h2.spr-header-title {
+    color: #f04f36;
+}
+
