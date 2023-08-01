@@ -4257,3 +4257,12 @@ span.utils-viewtoggle-label {
     align-items: flex-start;
 }
 
+.detailed_product .large_image img {
+    width: 100%;
+    height: auto;
+}
+
+.detailed_product media-gallery {
+    position: relative;
+}
+
