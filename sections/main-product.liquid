@@ -61,7 +61,7 @@
 
    {%if section.settings.two_coulmns_layout%}
    
-     {%if product.metafields.spr.reviews == blank %} 
+     {%if product.metafields.spr.reviews != blank %} 
      <div class="prduct_reviews">{{ product.metafields.spr.reviews }}</div>  
      
       {%else%}
