@@ -4356,3 +4356,81 @@ span.utils-viewtoggle-label {
     background-color: #dd1d1d;
     border-color: #dd1d1d;
 }
+
+/*** CSS for the FAQ Start **/
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid {
+    border: 1px solid #bdbdbd;
+    max-width: 980px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow {
+    max-width: 980px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__header h2 {
+    color: #f04f36;
+    font-size: 40px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion {
+    padding: 0;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details {
+    padding: 0;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details .accordion__content {
+    padding: 0 30px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details .accordion__content p {
+    line-height: 1.4;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary {
+    margin-bottom: 0px;
+    padding: 22px 30px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary h3 {
+    position: relative;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary svg.icon {display: none;}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary[aria-expanded="false"]:before {
+    position: absolute;
+    content: '+';
+    right: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    top: 16px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary[aria-expanded="true"]:before {
+    position: absolute;
+    content: '_';
+    right: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    top: 8px;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary:hover,.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary:focus {
+    background: transparent;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary:hover h3, .faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details summary:focus h3 {
+    text-decoration: none;
+}
+
+.faq-ui .collapsible-content-wrapper-narrow .collapsible-content__grid .grid__item .accordion details[open] summary {
+    padding-bottom: 10px;
+}
