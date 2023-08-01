@@ -4347,3 +4347,12 @@ span.utils-viewtoggle-label {
     color: #f04f36;
 }
 
+#shopify-product-reviews .spr-content form fieldset input[type="submit"] {
+    background-color: #373636;
+    border: 1px solid #373636;
+}
+
+#shopify-product-reviews .spr-content form fieldset input[type="submit"]:hover,#shopify-product-reviews .spr-content form fieldset input[type="submit"]:focus {
+    background-color: #dd1d1d;
+    border-color: #dd1d1d;
+}
