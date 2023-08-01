@@ -60,8 +60,14 @@
       {% render 'product-media-gallery', variant_images: variant_images %}
 
    {%if section.settings.two_coulmns_layout%}
-    <div id="shopify-product-reviews" data-id="{{product.id}}"></div>
-  {{ product.metafields.spr.reviews }}
+   
+     {%if product.metafields.spr.reviews == blank %} 
+     <div class="prduct_reviews">{{ product.metafields.spr.reviews }}</div>  
+     
+      {%else%}
+        <div id="shopify-product-reviews" data-id="{{product.id}}"></div>
+      {%endif%}
+  
      {%render 'product-large-image', product: product  %} 
    {%endif%}
     </div>
