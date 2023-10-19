@@ -2,7 +2,6 @@
   "sections": {
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--19475809829147__aa0af20e-397e-42ae-a0a2-79b3983cce3c-1688479024eade916c-0": {
           "type": "slide",
@@ -83,6 +82,7 @@
         "81b43388-4eea-412f-bf07-e2095168fc9d",
         "d177d1fc-65a4-4094-ab7e-02e1103041d2"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -100,21 +100,6 @@
         "video": "shopify:\/\/files\/videos\/empt--bsnner-video.mp4",
         "overlay_heading": "What is Lorem Ipsum?",
         "overlay_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-      }
-    },
-    "1a39f1b8-8619-404a-b004-57b557722763": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=K4TOrB7at0Y",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     },
     "22474be5-7711-42ce-9247-dd6e0b5f5ce2": {
@@ -317,7 +302,6 @@
   "order": [
     "aa0af20e-397e-42ae-a0a2-79b3983cce3c",
     "9463ca5c-ca95-4e1c-8d0e-a32e11970577",
-    "1a39f1b8-8619-404a-b004-57b557722763",
     "22474be5-7711-42ce-9247-dd6e0b5f5ce2",
     "3f310ecb-b52a-43a6-9e5a-3442d913284f",
     "de0c8b76-7e5e-4f76-8669-04b0efbb1155",
